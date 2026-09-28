@@ -59,9 +59,10 @@ Tout dépend de la manière dont on choisit de les présenter.
 
 # Ce que vous voyez
 
+<div class="slide-intro">
 Le graphique donne une forme aux données.<br>
 Tendances, écarts et relations deviennent visibles.
-
+</div>
 
 </div>
 
@@ -85,8 +86,10 @@ Tendances, écarts et relations deviennent visibles.
 
 # Ce que je vois
 
+<div class="slide-intro">
 Les chiffres n’ont pas changé. <br>
 Notre manière de les présenter, si.
+</div>
 
 </div>
 
@@ -110,9 +113,9 @@ Notre manière de les présenter, si.
 
 # La forme influence le message
 
-<p>
+<div class="slide-intro">
 Toute visualisation sélectionne, ordonne et hiérarchise l’information.
-</p>
+</div>
 
 <p class="text-secondary">
 Une visualisation structure la perception avant même l’analyse.
