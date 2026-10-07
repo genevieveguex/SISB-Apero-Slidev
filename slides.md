@@ -25,8 +25,6 @@ en explorant quelques fonctionnalités méconnues des outils Microsoft.
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
-
 <div class="eyebrow">Sommaire</div>
 
 # Aujourd’hui
@@ -38,7 +36,6 @@ title: 01 · Introduction · partir d'une question
 level: 1
 ---
 
-<div class="epfl-header"></div>
 
 <div class="eyebrow">01 · Introduction</div>
 
@@ -64,7 +61,7 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 ---
 hideInToc: true
 ---
-<div class="epfl-header"></div>
+
 
 <div class="two-columns">
 
@@ -96,7 +93,7 @@ Tendances, écarts et relations deviennent visibles.
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
+
 
 <div class="two-columns">
 
@@ -128,8 +125,6 @@ La question que nous leur posons a changé.
 ---
 hideInToc: true
 ---
-
-<div class="epfl-header"></div>
 
 <div class="two-columns">
 
@@ -189,7 +184,6 @@ title: 02 · Structurer les données
 level: 1
 ---
 
-<div class="epfl-header"></div>
 
 <div class="eyebrow">02 · Structurer</div>
 
