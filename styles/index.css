@@ -45,7 +45,7 @@
    EPFL HEADER
    ========================================================= */
 
-.epfl-header::before {
+.slidev-layout::before {
   content: "";
 
   position: absolute;
@@ -60,13 +60,15 @@
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
+
+  pointer-events: none;
 }
 
-.dark .epfl-header::before {
+.dark .slidev-layout::before {
   background-image: url("/assets/images/sisb-epfl-white.svg");
 }
 
-.epfl-header::after {
+.slidev-layout::after {
   content: "";
 
   position: absolute;
@@ -78,6 +80,8 @@
   height: 1px;
 
   background: var(--line);
+
+  pointer-events: none;
 }
 
 /* =========================================================
