@@ -6,7 +6,6 @@ mdc: true
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
 
 <div class="title-slide">
 
@@ -25,7 +24,6 @@ en explorant quelques fonctionnalités méconnues des outils Microsoft.
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
 
 <div class="eyebrow">Sommaire</div>
 
@@ -34,11 +32,10 @@ hideInToc: true
 <Toc minDepth="1" maxDepth="1" />
 
 ---
-title: 01 · Introduction · partir d'une question
+title: 01 · Introduction · partir d’une question
 level: 1
 ---
 
-<div class="epfl-header"></div>
 
 <div class="eyebrow">01 · Introduction</div>
 
@@ -64,7 +61,6 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 ---
 hideInToc: true
 ---
-<div class="epfl-header"></div>
 
 <div class="two-columns">
 
@@ -78,7 +74,7 @@ hideInToc: true
 La visualisation transforme des valeurs en formes, écarts et relations que nous pouvons comparer.
 </div>
 
-<p class="text-secondary">Le graphique donne une forme aux données.
+<p class="text-secondary">Le graphique donne une forme aux données.<br>
 Tendances, écarts et relations deviennent visibles.
 </p>
 
@@ -96,7 +92,6 @@ Tendances, écarts et relations deviennent visibles.
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
 
 <div class="two-columns">
 
@@ -111,7 +106,7 @@ Les chiffres n’ont pas changé. <br>
 La question que nous leur posons a changé.
 </div>
 
-<p class ="text-secondary"> Une autre question fait apparaître une autre structure dans les mêmes données.
+<p class="text-secondary">Une autre question fait apparaître une autre structure dans les mêmes données.
 </p>
 
 
@@ -129,7 +124,6 @@ La question que nous leur posons a changé.
 hideInToc: true
 ---
 
-<div class="epfl-header"></div>
 
 <div class="two-columns">
 
@@ -148,7 +142,7 @@ Comparer, vérifier et changer de perspective permet de mieux comprendre les don
 </p>
 
 <p v-click="1" class="text-secondary">
-Avant de conclure, il faut vérifier ce que l’on voit - et ce que l’on ne voit pas.
+Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne voit pas.
 </p>
 </div>
 
@@ -172,7 +166,7 @@ Avant de conclure, il faut vérifier ce que l’on voit - et ce que l’on ne vo
 </div>
 
 <div class="source-note">
-Original Tyrannosaurus by Alberto Cairo, 2016 ·
+Original Datasaurus by Alberto Cairo, 2016 ·
 <a href="https://www.research.autodesk.com/publications/same-stats-different-graphs/" target="_blank">
 Same Stats, Different Graphs ↗
 </a>
@@ -189,9 +183,8 @@ title: 02 · Structurer les données
 level: 1
 ---
 
-<div class="epfl-header"></div>
 
-<div class="eyebrow">02 · Structurer</div>
+<div class="eyebrow">02 · Structurer les données</div>
 
 # La forme compte
 
@@ -206,4 +199,4 @@ Certaines structures sont faciles à lire pour nous, mais difficiles à exploite
  
 </div>
 
- [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
