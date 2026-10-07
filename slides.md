@@ -6,7 +6,6 @@ mdc: true
 hideInToc: true
 ---
 
-
 <div class="title-slide">
 
 <div class="eyebrow">Heure de l'apéro</div>
@@ -20,10 +19,10 @@ en explorant quelques fonctionnalités méconnues des outils Microsoft.
 </div>
 
 </div>
+
 ---
 hideInToc: true
 ---
-
 
 <div class="eyebrow">Sommaire</div>
 
@@ -36,7 +35,6 @@ title: 01 · Introduction · partir d’une question
 level: 1
 ---
 
-
 <div class="eyebrow">01 · Introduction</div>
 
 # Voir `[autrement]`
@@ -46,17 +44,14 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 </div>
 
 <div class="full-visual">
-
   <img src="/assets/images/01-Extrait-Excel.png">
-
- 
 </div>
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
 
-<p class="text-secondary">Face au tableau, notre cerveau doit lire, mémoriser et comparer une succession de nombres.
+<p class="text-secondary">
+Face au tableau, notre cerveau doit lire, mémoriser et comparer une succession de nombres.
 </p>
-
 
 ---
 hideInToc: true
@@ -74,16 +69,15 @@ hideInToc: true
 La visualisation transforme des valeurs en formes, écarts et relations que nous pouvons comparer.
 </div>
 
-<p class="text-secondary">Le graphique donne une forme aux données.<br>
+<p class="text-secondary">
+Le graphique donne une forme aux données.<br>
 Tendances, écarts et relations deviennent visibles.
 </p>
 
 </div>
 
 <div class="right-column">
-
-<img src="/assets/images/02-LineChart.gif">
-
+  <img src="/assets/images/02-LineChart.gif">
 </div>
 
 </div>
@@ -91,7 +85,6 @@ Tendances, écarts et relations deviennent visibles.
 ---
 hideInToc: true
 ---
-
 
 <div class="two-columns">
 
@@ -106,16 +99,14 @@ Les chiffres n’ont pas changé. <br>
 La question que nous leur posons a changé.
 </div>
 
-<p class="text-secondary">Une autre question fait apparaître une autre structure dans les mêmes données.
+<p class="text-secondary">
+Une autre question fait apparaître une autre structure dans les mêmes données.
 </p>
-
 
 </div>
 
 <div class="right-column">
-
-<img src="/assets/images/02-Datasaurus.gif">
-
+  <img src="/assets/images/02-Datasaurus.gif">
 </div>
 
 </div>
@@ -123,7 +114,6 @@ La question que nous leur posons a changé.
 ---
 hideInToc: true
 ---
-
 
 <div class="two-columns">
 
@@ -144,11 +134,10 @@ Comparer, vérifier et changer de perspective permet de mieux comprendre les don
 <p v-click="1" class="text-secondary">
 Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne voit pas.
 </p>
+
 </div>
 
-
 <div class="right-column visual-fade">
-
   <img
     v-click-hide="1"
     class="visual-fade-image"
@@ -162,7 +151,6 @@ Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne 
     src="/assets/images/03-Datasaurus.png"
     alt="Datasaurus"
   />
-
 </div>
 
 <div class="source-note">
@@ -183,7 +171,6 @@ title: 02 · Structurer les données
 level: 1
 ---
 
-
 <div class="eyebrow">02 · Structurer les données</div>
 
 # La forme compte
@@ -193,10 +180,7 @@ Certaines structures sont faciles à lire pour nous, mais difficiles à exploite
 </div>
 
 <div class="full-visual">
-
   <img src="/assets/images/01-Extrait-Excel.png">
-
- 
 </div>
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
