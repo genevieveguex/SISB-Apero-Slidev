@@ -20,6 +20,7 @@ en explorant quelques fonctionnalités méconnues des outils Microsoft.
 
 </div>
 
+
 ---
 hideInToc: true
 ---
@@ -31,8 +32,27 @@ hideInToc: true
 <Toc minDepth="1" maxDepth="1" />
 
 ---
-title: 01 · Introduction · partir d’une question
+title: 01 · Voir autrement
 level: 1
+---
+
+<div class="title-slide">
+
+<div class="eyebrow">01 · INTRODUCTION</div>
+
+# Voir `[autrement]`
+
+<div class="subtitle">
+De la question à la visualisation : démonstration d’un workflow<br>
+<strong>Excel → Power Query → Power Pivot | Power BI</strong><br>
+en explorant quelques fonctionnalités méconnues des outils Microsoft.
+</div>
+
+</div>
+
+---
+title: P04-Voir Voir autrement
+hideInToc: true
 ---
 
 <div class="eyebrow">01 · Introduction</div>
@@ -50,6 +70,7 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 Face au tableau, notre cerveau doit lire, mémoriser et comparer une succession de nombres.
 
 ---
+title: P05-Voir Voir autrement
 hideInToc: true
 ---
 
@@ -75,6 +96,7 @@ Tendances, écarts et relations deviennent visibles.
 </div>
 
 ---
+title: P06-Voir Voir autrement
 hideInToc: true
 ---
 
@@ -100,6 +122,7 @@ Une autre question fait apparaître une autre structure dans les mêmes données
 </div>
 
 ---
+title: P07-Voir Voir autrement
 hideInToc: true
 ---
 
@@ -151,18 +174,20 @@ Download dataset ↗
 </div>
 
 ---
-title: 02 · Structurer les données
+title: 02 · La forme compte
 level: 1
 ---
 
+<div class="title-slide">
+
 <div class="eyebrow">02 · Structurer les données</div>
 
-# La forme compte
+# La forme <span class="underline">compte</span>
 
-Certaines structures sont faciles à lire pour nous, mais difficiles à exploiter.
-
-<div class="full-visual">
-  <img src="/assets/images/01-01-Extrait-Excel.png">
+<div class="subtitle">
+De la question à la visualisation : démonstration d’un workflow<br>
+<strong>Excel → Power Query → Power Pivot | Power BI</strong><br>
+en explorant quelques fonctionnalités méconnues des outils Microsoft.
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
+</div>
