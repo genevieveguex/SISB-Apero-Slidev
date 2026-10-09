@@ -109,8 +109,8 @@ hideInToc: true
 
 # Ce que vous ne voyez pas
 
-*Existe-t-il une relation entre le nombre d'entrées* <br>
-*et le nombre de prêts ?*
+*Existe-t-il une relation entre le nombre d'entrées  
+et le nombre de prêts ?*
 
 Les chiffres n’ont pas changé.  
 La question que nous leur posons a changé.
@@ -118,7 +118,7 @@ La question que nous leur posons a changé.
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/01-03-Datasaurus.gif">
+  <img src="/assets/images/01-03-Datasaurus.gif" alt="Visualisation Datasaurus">
 </div>
 
 </div>
@@ -181,7 +181,7 @@ level: 1
 
 <div class="title-slide">
 
-<div class="eyebrow">02 · Structurer les données</div>
+<div class="eyebrow">02 · Préparer les données</div>
 
 # La forme <span class="underline">compte</span>
 
@@ -199,3 +199,18 @@ title: P09-La forme compte
 hideInToc: true
 ---
 
+<div class="eyebrow">02 · Préparer les données</div>
+
+# Votre avis
+
+Quelles sont le questions que nous pourrions poser à ce jeux de données?
+
+<div class="full-visual">
+  <img src="/assets/images/02-01-Excel-depart.png" alt="USEP Récolte Démo">
+</div>
+
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
+
+
+
+---
