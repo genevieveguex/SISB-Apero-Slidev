@@ -132,7 +132,7 @@ Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne 
   <img
     v-click="1"
     class="visual-fade-image"
-    src="/assets/images/03-Datasaurus.png"
+    src="/assets/images/01-05-Datasaurus.png"
     alt="Datasaurus"
   />
 </div>
@@ -162,7 +162,7 @@ level: 1
 Certaines structures sont faciles à lire pour nous, mais difficiles à exploiter.
 
 <div class="full-visual">
-  <img src="/assets/images/01-Extrait-Excel.png">
+  <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
