@@ -14,12 +14,12 @@
 
 .slide-page-number {
   position: absolute;
-  top: 20px;
+  top: 26px;
   right: 40px;
   min-width: 32px;
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1;
   font-weight: 400;
   color: var(--muted, #8a8a8a);
