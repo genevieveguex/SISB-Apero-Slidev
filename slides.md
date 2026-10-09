@@ -44,7 +44,7 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 </div>
 
 <div class="full-visual">
-  <img src="/assets/images/01-Extrait-Excel.png">
+  <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
@@ -77,7 +77,7 @@ Tendances, écarts et relations deviennent visibles.
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/02-LineChart.gif">
+  <img src="/assets/images/01-02-LineChart.gif">
 </div>
 
 </div>
@@ -106,7 +106,7 @@ Une autre question fait apparaître une autre structure dans les mêmes données
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/02-Datasaurus.gif">
+  <img src="/assets/images/01-03-Datasaurus.gif">
 </div>
 
 </div>
@@ -132,7 +132,7 @@ Comparer, vérifier et changer de perspective permet de mieux comprendre les don
 </p>
 
 <p v-click="1" class="text-secondary">
-Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne voit pas.
+Avant de conclure, il faut vérifier ce que l’on voit - et ce que l’on ne voit pas.
 </p>
 
 </div>
@@ -141,7 +141,7 @@ Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne 
   <img
     v-click-hide="1"
     class="visual-fade-image"
-    src="/assets/images/02-LineChart.png"
+    src="/assets/images/01-04-LineChart.png"
     alt="Graphique en courbes"
   />
 
@@ -183,4 +183,9 @@ Certaines structures sont faciles à lire pour nous, mais difficiles à exploite
   <img src="/assets/images/01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link
+
+
+---
+
+
