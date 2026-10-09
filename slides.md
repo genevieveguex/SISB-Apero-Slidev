@@ -22,6 +22,7 @@ en explorant quelques fonctionnalités méconnues des outils Microsoft.
 
 
 ---
+title: P02-TOC
 hideInToc: true
 ---
 
@@ -43,23 +44,21 @@ level: 1
 # Voir `[autrement]`
 
 <div class="subtitle">
-De la question à la visualisation : démonstration d’un workflow<br>
-<strong>Excel → Power Query → Power Pivot | Power BI</strong><br>
-en explorant quelques fonctionnalités méconnues des outils Microsoft.
+Les données ne parlent pas d'elles-mêmes. Encore faut-il savoir comment les regarder.
+
 </div>
 
 </div>
 
 ---
-title: P04-Voir Voir autrement
+title: P04-Voir autrement
 hideInToc: true
 ---
 
 <div class="eyebrow">01 · Introduction</div>
 
-# Voir `[autrement]`
+# Les chiffres ne disent pas tout
 
-Les données brutes décrivent une réalité, mais elles ne la rendent pas immédiatement visible.
 
 <div class="full-visual">
   <img src="/assets/images/01-01-Extrait-Excel.png">
@@ -67,10 +66,12 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
 
-Face au tableau, notre cerveau doit lire, mémoriser et comparer une succession de nombres.
+Deux indicateurs de la Bibliothèque : entrées et prêts physiques.
+Que pouvons-nous en déduire?
+
 
 ---
-title: P05-Voir Voir autrement
+title: P05-Voir autrement
 hideInToc: true
 ---
 
@@ -82,10 +83,10 @@ hideInToc: true
 
 # Ce que vous voyez
 
-La visualisation transforme des valeurs en formes, écarts et relations que nous pouvons comparer.
+*Comment les entrées et les prêts évoluent-ils* <br>
+*dans le temps ?*
 
-Le graphique donne une forme aux données.  
-Tendances, écarts et relations deviennent visibles.
+La visualisation transforme des valeurs en formes, écarts et relations que nous pouvons comparer.
 
 </div>
 
@@ -96,7 +97,7 @@ Tendances, écarts et relations deviennent visibles.
 </div>
 
 ---
-title: P06-Voir Voir autrement
+title: P06-Voir autrement
 hideInToc: true
 ---
 
@@ -108,10 +109,11 @@ hideInToc: true
 
 # Ce que vous ne voyez pas
 
+*Existe-t-il une relation entre le nombre d'entrées* <br>
+*et le nombre de prêts ?*
+
 Les chiffres n’ont pas changé.  
 La question que nous leur posons a changé.
-
-Une autre question fait apparaître une autre structure dans les mêmes données.
 
 </div>
 
@@ -122,7 +124,7 @@ Une autre question fait apparaître une autre structure dans les mêmes données
 </div>
 
 ---
-title: P07-Voir Voir autrement
+title: P07-Voir autrement
 hideInToc: true
 ---
 
@@ -134,12 +136,11 @@ hideInToc: true
 
 # Changer de point de vue
 
-Une seule vue suffit rarement.
+La première visualisation n'est pas nécessairement la bonne. C'est souvent simplement la première.
 
-Comparer, vérifier et changer de perspective permet de mieux comprendre les données.
 
 <p v-click="1">
-Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne voit pas.
+Explorer, comparer, changer d'échelle ou de perspective permet de découvrir ce que notre première lecture avait laissé de côté.
 </p>
 
 </div>
@@ -185,9 +186,16 @@ level: 1
 # La forme <span class="underline">compte</span>
 
 <div class="subtitle">
-De la question à la visualisation : démonstration d’un workflow<br>
-<strong>Excel → Power Query → Power Pivot | Power BI</strong><br>
-en explorant quelques fonctionnalités méconnues des outils Microsoft.
+Les données arrivent rarement dans le format qui nous arrange.
+
+Un tableau bien présenté n'est pas nécessairement un tableau facile à analyser.<br> 
+Nos fichiers Excel sont souvent conçus pour être lus, beaucoup moins pour être exploités.
 </div>
 
 </div>
+
+---
+title: P09-La forme compte
+hideInToc: true
+---
+
