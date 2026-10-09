@@ -109,6 +109,14 @@ p {
   color: var(--text);
 }
 
+/* Override Slidev default styling for the first paragraph after a title.
+   All body text should use the same typography and color. */
+.slidev-layout h1 + p {
+  margin: 0 0 14px;
+  opacity: 1;
+  color: var(--text);
+}
+
 
 /* =========================================================
    EYEBROW
