@@ -39,9 +39,7 @@ level: 1
 
 # Voir `[autrement]`
 
-<div class="slide-intro">
 Les données brutes décrivent une réalité, mais elles ne la rendent pas immédiatement visible.
-</div>
 
 <div class="full-visual">
   <img src="/assets/images/01-01-Extrait-Excel.png">
@@ -49,9 +47,7 @@ Les données brutes décrivent une réalité, mais elles ne la rendent pas immé
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
 
-<p class="text-secondary">
 Face au tableau, notre cerveau doit lire, mémoriser et comparer une succession de nombres.
-</p>
 
 ---
 hideInToc: true
@@ -65,14 +61,10 @@ hideInToc: true
 
 # Ce que vous voyez
 
-<div class="slide-intro">
 La visualisation transforme des valeurs en formes, écarts et relations que nous pouvons comparer.
-</div>
 
-<p class="text-secondary">
-Le graphique donne une forme aux données.<br>
+Le graphique donne une forme aux données.  
 Tendances, écarts et relations deviennent visibles.
-</p>
 
 </div>
 
@@ -94,14 +86,10 @@ hideInToc: true
 
 # Ce que vous ne voyez pas
 
-<div class="slide-intro">
-Les chiffres n’ont pas changé. <br>
+Les chiffres n’ont pas changé.  
 La question que nous leur posons a changé.
-</div>
 
-<p class="text-secondary">
 Une autre question fait apparaître une autre structure dans les mêmes données.
-</p>
 
 </div>
 
@@ -123,16 +111,12 @@ hideInToc: true
 
 # Changer de point de vue
 
-<div class="slide-intro">
 Une seule vue suffit rarement.
-</div>
 
-<p class="text-secondary">
 Comparer, vérifier et changer de perspective permet de mieux comprendre les données.
-</p>
 
-<p v-click="1" class="text-secondary">
-Avant de conclure, il faut vérifier ce que l’on voit - et ce que l’on ne voit pas.
+<p v-click="1">
+Avant de conclure, il faut vérifier ce que l’on voit — et ce que l’on ne voit pas.
 </p>
 
 </div>
@@ -175,17 +159,10 @@ level: 1
 
 # La forme compte
 
-<div class="slide-intro">
 Certaines structures sont faciles à lire pour nous, mais difficiles à exploiter.
-</div>
 
 <div class="full-visual">
   <img src="/assets/images/01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link
-
-
----
-
-
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
