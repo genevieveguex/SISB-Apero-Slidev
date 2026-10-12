@@ -6,6 +6,8 @@ mdc: true
 hideInToc: true
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="title-slide">
 
 <div class="eyebrow">Heure de l'apéro</div>
@@ -26,6 +28,8 @@ title: P02-TOC
 hideInToc: true
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="eyebrow">Sommaire</div>
 
 # Aujourd’hui
@@ -36,6 +40,8 @@ hideInToc: true
 title: 01 · Voir autrement
 level: 1
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="title-slide">
 
@@ -54,6 +60,8 @@ Les données ne parlent pas d'elles-mêmes. Encore faut-il savoir comment les re
 title: P04-Voir autrement
 hideInToc: true
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="eyebrow">01 · Introduction</div>
 
@@ -74,6 +82,8 @@ Que pouvons-nous en déduire?
 title: P05-Voir autrement
 hideInToc: true
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="two-columns">
 
@@ -101,6 +111,8 @@ title: P06-Voir autrement
 hideInToc: true
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="two-columns">
 
 <div class="left-column">
@@ -127,6 +139,8 @@ La question que nous leur posons a changé.
 title: P07-Voir autrement
 hideInToc: true
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="two-columns">
 
@@ -179,6 +193,8 @@ title: 02 · La forme compte
 level: 1
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="title-slide">
 
 <div class="eyebrow">02 · Préparer les données</div>
@@ -199,6 +215,8 @@ title: P09-La forme compte
 hideInToc: true
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="eyebrow">02 · Préparer les données</div>
 
 # Votre avis
@@ -217,6 +235,8 @@ Quelles sont le questions que nous pourrions poser à ce jeux de données?
 title: P10-La forme compte
 hideInToc: true
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="eyebrow">02 · Préparer les données</div>
 
@@ -239,6 +259,8 @@ title: P12-La forme compte
 hideInToc: true
 ---
 
+<div class="apero-page-number">{{ $page }}</div>
+
 <div class="eyebrow">02 · Préparer les données</div>
 
 # Le format des données doit changer
@@ -251,6 +273,8 @@ hideInToc: true
 title: P11-La forme compte
 hideInToc: true
 ---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="eyebrow">02 · Préparer les données</div>
 
