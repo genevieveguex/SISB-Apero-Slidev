@@ -220,7 +220,7 @@ hideInToc: true
 
 <div class="eyebrow">02 · Préparer les données</div>
 
-# Quelles sont les questions auxquelles nous ne pouvons pas répondre?
+# Quelles sont les questions auxquelles <br> nous ne pouvons pas répondre?
 
 <br> 
   
@@ -230,8 +230,23 @@ hideInToc: true
 - quelle est la différence par rapport au mois précédent (nombre ou pourcentage)?
 - quelle est la différence entre le nombre le plus haut et nombre le plus bas (pourcentage)?
 
-
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
   
+
+
+---  
+title: P12-La forme compte
+hideInToc: true
+---
+
+<div class="eyebrow">02 · Préparer les données</div>
+
+# Le format des données doit changer
+
+<div class="full-visual">
+  <img src="/assets/images/02-02-Excel-Arrivee.png" alt="USEP Récolte Démo">
+</div>
+
 ---  
 title: P11-La forme compte
 hideInToc: true
@@ -239,7 +254,7 @@ hideInToc: true
 
 <div class="eyebrow">02 · Préparer les données</div>
 
-# … et si nous désirons comparer avec les années précédentes?	
+# … et si nous désirons comparer 2026 <br> avec les années précédentes?	
   
 <br> 
 
@@ -252,4 +267,3 @@ hideInToc: true
 - différence des totaux d'années en année (nombre, pourcent)
 
 [Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
-
