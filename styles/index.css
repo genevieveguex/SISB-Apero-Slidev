@@ -89,7 +89,7 @@
    ========================================================= */
 
 h1 {
-  max-width: 560px;
+  max-width: 100%;
 
   margin: 0 0 22px;
 
@@ -313,6 +313,11 @@ code {
 
 .left-column {
   padding-right: 12px;
+}
+
+/* Keep headings constrained within two-column layouts. */
+.two-columns .left-column h1 {
+  max-width: 560px;
 }
 
 .left-column .eyebrow {
