@@ -214,3 +214,42 @@ Quelles sont le questions que nous pourrions poser à ce jeux de données?
 
 
 ---
+title: P10-La forme compte
+hideInToc: true
+---
+
+<div class="eyebrow">02 · Préparer les données</div>
+
+# Quelles sont les questions auxquelles nous ne pouvons pas répondre?
+
+<br> 
+  
+**Évolution**
+- quelle est la moyenne par trimestre?
+- quel est le total par année académique (septembre-août)?
+- quelle est la différence par rapport au mois précédent (nombre ou pourcentage)?
+- quelle est la différence entre le nombre le plus haut et nombre le plus bas (pourcentage)?
+
+
+  
+---  
+title: P11-La forme compte
+hideInToc: true
+---
+
+<div class="eyebrow">02 · Préparer les données</div>
+
+# … et si nous désirons comparer avec les années précédentes?	
+  
+<br> 
+
+**Saisonnalité**
+- est-ce que le mois de mai est toujours celui avec le plus d'entrées?
+- est-ce que nous avons une période durant laquelle les sollicitations sont plus hautes?
+
+  
+**Évolution**
+- différence des totaux d'années en année (nombre, pourcent)
+
+[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
+
