@@ -433,7 +433,7 @@ hideInToc: true
 # Rappel - nous voulons arriver à ceci
 
 <div class="right-column">
-  <img src="/assets/images/03-01-PQ-ouvrir.png" alt="Power Query">
+  <img src="/assets/images/03-12-Format-Long-rappel.png" alt="Power Query">
 </div>
 
 ---
@@ -501,13 +501,139 @@ hideInToc: true
 
 <div class="apero-page-number">{{ $page }}</div>
 
+<div class="two-columns">
+
+<div class="left-column">
 
 <div class="eyebrow">03 · Préparer les données</div>
 
-# Étape 02 - extraire les informations
+# Étape 02 - récupérer toutes les tables du fichier excel
+Nous cliquons sur le symbole de double flèche à côté du titre de la colonne `Data ↓↓`.
 
-<div class="full-visual">
+Puis nous vérifions que l'option  
+`□ Utiliser les noms de colonnes d'origine`  
+est bien désélectionnée.
+
+</div>
+
+<div class="right-column">
 
   <img src="/assets/images/03-10-Extraire.gif" alt="Tables Power Query">
+
+</div>
+
+</div>
+
+---
+title: P21-Préparer les données
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Préparer les données</div>
+
+# Premier résultat
+Notre table contient toutes les valeurs qui sont dans des onglets séparés dans excel.
+Elle est au format large, ce qui ne permet pas encore de l'utiliser comme base pour l'analyse.
+
+<div class="full-visual">
+  <img src="/assets/images/03-11-Format-Large.png" alt="Power Query">
+
+</div>
+
+---
+title: P22-Préparer les données
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Préparer les données</div>
+
+# Rappel
+Nous devons placer toutes les dates dans une colonne, et toutes les valeurs dans une colonne.
+
+<div class="full-visual">
+  <img src="/assets/images/03-12-Format-Long-rappel.png" alt="USEP Récolte Démo">
+</div>
+
+
+
+---
+title: P24-Préparer les données
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">03 · Préparer les données</div>
+
+# Étape 03 - dépivoter pour passer en format long
+Sélectionner les colonnes de texte.
+
+Dans l'onglet `Transformer`
+`Dépivoter les colonnes` > `Dépivoter les autres colonnes`
+
+</div>
+
+<div class="right-column">
+
+  <img src="/assets/images/03-13-Depivoter.gif" alt="Tables Power Query">
+
+</div>
+
+</div>
+
+---
+title: P24-Préparer les données
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">03 · Préparer les données</div>
+
+# Étape 04 - renommer et attribuer un format
+Renommer la colonne `Attribut` en `Date`.
+
+Changer le format de texte `mmm.aa` en `jj.mm.aaaa`
+
+La fonction de format `Date` est extrêmement puissante. Elle reconstruit les valeurs de la colonne sans erreur.
+
+Les fonctions disponibles permettent d'ajuster au format voulu, dans notre cas au dernier jour du mois.
+
+</div>
+
+<div class="right-column">
+
+  <img src="/assets/images/03-14-Format-Date.png" alt="Tables Power Query">
+
+</div>
+
+</div>
+
+---
+title: P25-Préparer les données
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+
+<div class="eyebrow">03 · Préparer les données</div>
+
+# Étape 05 - charger
+
+<div class="full-visual">
+  <img src="/assets/images/03-16-Charger.png" alt="Power Query">
 
 </div>
