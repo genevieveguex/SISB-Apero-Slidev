@@ -258,7 +258,7 @@ code {
 .visual-full-width {
   position: relative;
   width: 100%;
-  height: 380px;
+  height: 200px;
   margin-top: 24px;
 }
 
@@ -530,4 +530,63 @@ code {
   font-weight: 400;
   color: var(--muted);
   pointer-events: none;
+}
+
+
+
+/* =========================================================
+   Workflow
+   4 étapes
+   ========================================================= */
+
+.workflow {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.25fr) 24px
+    minmax(0, 1fr) 24px
+    minmax(0, 1fr) 24px
+    minmax(0, 0.85fr);
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.workflow-step {
+  height: 330px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--text);
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.workflow-step h2 {
+  margin: 0 0 18px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.workflow-step strong {
+  display: block;
+  margin-top: 9px;
+  font-weight: 600;
+}
+
+.workflow-step ul {
+  margin: 5px 0 10px;
+  padding-left: 16px;
+  list-style-type: disc;
+}
+
+.workflow-step li {
+  margin-bottom: 3px;
+}
+
+.workflow-arrow {
+  font-size: 24px;
+  text-align: center;
+  color: var(--muted);
 }

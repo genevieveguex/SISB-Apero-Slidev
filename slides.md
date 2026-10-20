@@ -72,7 +72,7 @@ hideInToc: true
   <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQAaVC0B_0ybQ71Ul3AHfD8vAYURhc2NRJlpyHmimnIRiTE?e=d5V1xL){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQD-2Uy-n3KRSoa4HKn8lpGNAT8xiuJVx-Ga70HiMEI-Z8Y?e=KdUkLE){target="_blank" .demo-link}
 
 Deux indicateurs de la Bibliothèque : entrées et prêts physiques.
 Que pouvons-nous en déduire?
@@ -223,7 +223,7 @@ hideInToc: true
   <img src="/assets/images/02-01-Excel-depart.png" alt="USEP Récolte Démo">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
 
 
 
@@ -245,8 +245,7 @@ hideInToc: true
 - quelle est la différence par rapport au mois précédent (nombre ou pourcentage)?
 - quelle est la différence entre le nombre le plus haut et le nombre le plus bas (pourcentage)?
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
-  
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
 
 ---  
 title: P11-La forme compte
@@ -266,7 +265,7 @@ hideInToc: true
 **Évolution**
 - différence d'année en année (nombre, pourcent)
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
 
 
 ---  
@@ -284,11 +283,14 @@ hideInToc: true
   <img src="/assets/images/02-02-Excel-Arrivee.png" alt="USEP Récolte Démo">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBPuv06uchVQJ63sRWYxpwLAd5uHcGlJFFlfFjigReckkM?e=jl0xg0){target="_blank" .demo-link}
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
+
+
+
 
 
 ---
-title: 03-Power Query
+title: 03 · Extraire - Transformer - Charger
 level: 1
 ---
 
@@ -296,18 +298,137 @@ level: 1
 
 <div class="title-slide">
 
-<div class="eyebrow">03 · Préparer les données</div>
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
 
 # Faire le travail <span class="underline">une seule</span> fois.
 
 <div class="subtitle">
 Les données arrivent rarement dans le format qui nous arrange. <br>
-Les fichiers ne sont pas statiques, de nouveaux éléments sont ajoutés en permanence.
+Les sources ne sont pas statiques, de nouveaux éléments sont ajoutés en permanence.
+
+Changer les formats des tables à chaque mise-à-jour n'est pas imaginable.
 </div>
 
-Les transformations peuvent êtres sauvegardées et appliquées aux nouvelles tables. <br>
+</div>
 
-Découvrons **Power Query**.
+---
+title: P14-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+<div class="full-visual">
+  <img src="/assets/images/03-Slide-flux.png" alt="USEP Récolte Démo">
+</div>
+
+
+
+
+---
+title: P14-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Power Query
+Power Query permet d'importer, de combiner et de transformer des données provenant de différentes sources.
+
+
+<div class="visual-full-width">
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/03-04-PQ-Interface.png"
+    alt="Interface Power Query"
+  />
+
+  <img
+    v-click="1"
+    class="visual-fade-image"
+    src="/assets/images/03-05-PQ-Interface-Note.png"
+    alt="Interface Power Query annotée"
+  />
+</div>
+
+Sans modifier les fichiers d'origine. Et sans devoir écrire une ligne de code.
+
+[la liste complète ↗](https://learn.microsoft.com/en-us/power-query/connectors/){target="_blank" .demo-link}
+
+
+
+---
+title: P16-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Opérations de transformation courantes
+Après avoir chargé vos différentes sources vous pouvez:
+
+- réparer des structures (opérations sur lignes et colonnes)
+- utiliser des délimiteurs pour extraire du texte
+- créer des colonnes conditionnelles
+- retravailler des formats de date
+- calculer de nouvelles valeurs avec des opérations mathématiques
+
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
+
+
+---
+title: P17-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Démarrer Power Query
+
+Power Query se lance depuis l'onglet `Données` d'excel. Vous pouvez l'utiliser :
+
+- dans le même fichier que vos tables existantes  
+  dans ce cas vous choisirez  
+`A partir d'un tableau ou d'une plage`
+
+- dans un fichier vide que vous liez à votre source  
+`A partir d'un fichier`  
+ou  
+`A partir d'un dossier`  
+pour récupérer plusieurs fichiers en vue d'un assemblage
 
 </div>
 
+
+<div class="right-column">
+  <img src="/assets/images/03-02-LancerPQ.png" alt="USEP Récolte Démo">
+</div>
+
+</div>
+
+[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
+
+---
+title: P18-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Mettre en mémoire les tables = créer un modèle de données
+
+Il peut vous recracher les résultats de requête dans une table excel, mais aussi les charger dans un modèle de données.
