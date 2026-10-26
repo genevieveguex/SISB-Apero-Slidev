@@ -421,41 +421,25 @@ pour récupérer plusieurs fichiers en vue d'un assemblage
 [Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
 
 
-
-
 ---
-title: P18-ETL
-hideInToc: true
+title: 04 · Organiser et enrichir
+level: 1
 ---
 
 <div class="apero-page-number">{{ $page }}</div>
 
+<div class="title-slide">
+
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Construire un modèle de données
+# Construire un modèle de <span class="underline">données</span>.
 
-<div class="two-columns model-slide">
+<div class="subtitle">
 
-<div class="left-column">
+Mettre des tables en mémoire.<br>
+Les relier entre elles.  
 
-<p>
-Mettre en mémoire plusieurs tables<br>
-+<br>
-Les relier entre elles<br>
-=<br>
-Modèle de données
-</p>
-
-</div>
-
-
-<div class="right-column">
-
-  <img
-    src="/assets/images/star-schema.gif"
-    alt="Animation du modèle de données"
-    style="width: 100%; height: 280px; object-fit: contain;"
-  />
+C'est le modèle de données - aka modèle sémantique
 
 </div>
 
