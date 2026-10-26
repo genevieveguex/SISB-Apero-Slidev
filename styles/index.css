@@ -297,6 +297,15 @@ code {
   object-fit: contain;
 }
 
+.star-schema-anim {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
 /* =========================================================
    DEMO LINK
    ========================================================= */

@@ -420,6 +420,9 @@ pour récupérer plusieurs fichiers en vue d'un assemblage
 
 [Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
 
+
+
+
 ---
 title: P18-ETL
 hideInToc: true
@@ -427,8 +430,33 @@ hideInToc: true
 
 <div class="apero-page-number">{{ $page }}</div>
 
-<div class="eyebrow">03 · Extraire - transformer - charger</div>
+<div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Mettre en mémoire les tables = créer un modèle de données
+# Construire un modèle de données
 
-Il peut vous recracher les résultats de requête dans une table excel, mais aussi les charger dans un modèle de données.
+<div class="two-columns model-slide">
+
+<div class="left-column">
+
+<p>
+Mettre en mémoire plusieurs tables<br>
++<br>
+Les relier entre elles<br>
+=<br>
+Modèle de données
+</p>
+
+</div>
+
+
+<div class="right-column">
+
+  <img
+    src="/assets/images/star-schema.gif"
+    alt="Animation du modèle de données"
+    style="width: 100%; height: 280px; object-fit: contain;"
+  />
+
+</div>
+
+</div>
