@@ -72,7 +72,7 @@ hideInToc: true
   <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQD-2Uy-n3KRSoa4HKn8lpGNAT8xiuJVx-Ga70HiMEI-Z8Y?e=KdUkLE){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Demo-01 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5HvAo5dGrQ62nm2qBVIHcAVtSpBlB-xpWGvWoCqfJZiI?e=vk0662){target="_blank" .demo-link}
 
 Deux indicateurs de la Bibliothèque : entrées et prêts physiques.
 Que pouvons-nous en déduire?
@@ -209,7 +209,7 @@ Nos fichiers Excel sont souvent conçus pour être lus, beaucoup moins pour êtr
 </div>
 
 ---
-title: P09-La forme compte
+title: P09-Repenser la structure
 hideInToc: true
 ---
 
@@ -223,12 +223,12 @@ hideInToc: true
   <img src="/assets/images/02-01-Excel-depart.png" alt="USEP Récolte Démo">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Demo-02 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQD4DGUEi9wMT7F7UE6337lfAYyKty0dOSYo1gKj1xE1nYc?e=blsZ7N){target="_blank" .demo-link}
 
 
 
 ---
-title: P10-La forme compte
+title: P10-Repenser la structure
 hideInToc: true
 ---
 
@@ -236,40 +236,20 @@ hideInToc: true
 
 <div class="eyebrow">02 · Repenser la structure</div>
 
-# Quelles sont les questions auxquelles <br> nous ne pouvons pas répondre?
+# Pourquoi ne pouvons-nous pas aller plus loin? <br>
 
-  
-**Évolution**
-- quelle est la moyenne par trimestre?
-- quel est le total par année académique (septembre-août)?
-- quelle est la différence par rapport au mois précédent (nombre ou pourcentage)?
-- quelle est la différence entre le nombre le plus haut et le nombre le plus bas (pourcentage)?
+**Nous devons séparer le format visuel du format d'analyse et construire notre fichier différemment**
+- nos valeurs doivent toutes se trouver dans une seule table
+- la table doit se mettre à jour toute seule lorsque les valeurs sont modifiées
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
+
+
+
+[Ouvrir le fichier Excel Demo-03 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQDTNlCQQseQTbtmRilDdHvXATcgg0JkWO0n7B7ukFSfTFw?e=asMefe){target="_blank" .demo-link}
+
 
 ---  
 title: P11-La forme compte
-hideInToc: true
----
-
-<div class="apero-page-number">{{ $page }}</div>
-
-<div class="eyebrow">02 · Repenser la structure</div>
-
-# … et si nous désirons comparer 2026 <br> avec les années précédentes?	
-  
-**Saisonnalité**
-- est-ce que le mois de mai est toujours celui avec le plus d'entrées?
-- est-ce que nous avons une période durant laquelle les sollicitations sont plus hautes?
-
-**Évolution**
-- différence d'année en année (nombre, pourcent)
-
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
-
-
----  
-title: P12-La forme compte
 hideInToc: true
 ---
 
@@ -283,11 +263,7 @@ hideInToc: true
   <img src="/assets/images/02-02-Excel-Arrivee.png" alt="USEP Récolte Démo">
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBPG5SXz_APS5qRo_eL5dyIAcoxQj04_JAnq4fJmqOMkFo?e=S0HdfO){target="_blank" .demo-link}
-
-
-
-
+[Ouvrir le fichier Excel de départ ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5GIJZ5GZyQYockbR11VZRAaaE5qfutF-6lp2tD4kpcI4?e=D44Dbz){target="_blank" .demo-link}
 
 ---
 title: 03 · Extraire - Transformer - Charger
@@ -312,7 +288,7 @@ Changer les formats des tables à chaque mise-à-jour n'est pas imaginable.
 </div>
 
 ---
-title: P14-ETL
+title: P13-ETL
 hideInToc: true
 ---
 
@@ -363,7 +339,7 @@ Sans modifier les fichiers d'origine. Et sans devoir écrire une ligne de code.
 
 
 ---
-title: P16-ETL
+title: P15-ETL
 hideInToc: true
 ---
 
@@ -380,11 +356,8 @@ Après avoir chargé vos différentes sources vous pouvez:
 - retravailler des formats de date
 - calculer de nouvelles valeurs avec des opérations mathématiques
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
-
-
 ---
-title: P17-ETL
+title: P16-ETL
 hideInToc: true
 ---
 
@@ -395,17 +368,16 @@ hideInToc: true
 
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
-# Démarrer Power Query
+# Démarrer la transformation
 
 Power Query se lance depuis l'onglet `Données` d'excel. Vous pouvez l'utiliser :
 
-- dans le même fichier que vos tables existantes  
+- dans le même fichier que vos tables existantes,  
   dans ce cas vous choisirez  
 `A partir d'un tableau ou d'une plage`
 
-- dans un fichier vide que vous liez à votre source  
-`A partir d'un fichier`  
-ou  
+- dans un fichier vide que vous liez à vos sources:  
+`A partir d'un fichier`  ou  
 `A partir d'un dossier`  
 pour récupérer plusieurs fichiers en vue d'un assemblage
 
@@ -418,7 +390,7 @@ pour récupérer plusieurs fichiers en vue d'un assemblage
 
 </div>
 
-[Ouvrir le fichier Excel ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQBqljyhjAo8SrSgqQdjHy6qAeNfPfeq_bgMY_APTOdBg1Q?e=gZ2OUb){target="_blank" .demo-link}
+[Ouvrir le fichier Excel avec les étapes ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQCrj9uwrUZPRZcM-5qcYV2LAbTJD2QyJxhq8u3n5x8PJSM?e=mFM3nP){target="_blank" .demo-link}
 
 
 ---
