@@ -399,6 +399,21 @@ code {
 
 
 /* =========================================================
+Textes successifs sous les images
+   ========================================================= */
+
+.visual-captions {
+  display: grid;
+  margin-top: 12px;
+}
+
+.visual-captions > div {
+  grid-area: 1 / 1;
+  transition: opacity 1s ease;
+}
+
+
+/* =========================================================
    RIGHT COLUMN
    ========================================================= */
 

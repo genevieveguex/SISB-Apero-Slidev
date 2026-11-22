@@ -394,6 +394,67 @@ pour récupérer plusieurs fichiers en vue d'un assemblage
 
 
 ---
+title: P17-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Le résultat
+Un fichier pratique pour la saisie et utilisable pour l'analyse
+<div class="visual-full-width">
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/03-06-Resultat.png"
+    alt="Résultat Power Query — étape 1"
+  />
+
+  <img
+    v-click="[1, 2]"
+    class="visual-fade-image"
+    src="/assets/images/03-06-Resultat-B.png"
+    alt="Résultat Power Query — étape 2"
+  />
+
+  <img
+    v-click="2"
+    class="visual-fade-image"
+    src="/assets/images/03-06-Resultat-C.png"
+    alt="Résultat Power Query — étape 3"
+  />
+
+</div>
+
+<div class="visual-captions">
+  <div v-click-hide="1">La présentation des données est séparée des données sources</div>
+  <div v-click="[1, 2]">Les tables de récolte servent deux objectifs: saisir les valeurs et alimenter Power Query</div>
+  <div v-click="2">La table de travail Power Query qui alimente les rapports vit dans son propre onglet</div>
+</div>
+
+[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+
+
+---
+title: P18-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+# Et maintenant?
+Nos données sont désormais structurées, exploitables et actualisables.
+
+Mais elles ne racontent chacune qu'une partie de l'histoire.
+
+Et si nous les faisions dialoguer ?
+
+
+---
 title: 04 · Organiser et enrichir
 level: 1
 ---
@@ -404,15 +465,118 @@ level: 1
 
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Construire un modèle de <span class="underline">données</span>.
+# Tout est dans la <span class="underline">relation</span>.
 
 <div class="subtitle">
 
 Mettre des tables en mémoire.<br>
 Les relier entre elles.  
 
-C'est le modèle de données - aka modèle sémantique
+C'est le modèle de données - aka modèle sémantique.
+
+</div>
+</div>
+
+---
+title: P20-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Allons faire un tour
+Les statistiques EPFL 2026 viennent d'être publiées.
+
+Allons voir qui est notre public.
 
 </div>
 
+<div class="right-column">
+  <img src="/assets/images/04-01-Stats_EPFL.png" alt="USEP Récolte Démo">
 </div>
+
+</div>
+
+[Statistiques insitutionnelles de l'EPFL ↗](https://www.epfl.ch/about/data/fr/donnees-institutionnelles/statistiques-institutionnelles/){target="_blank" .demo-link}
+
+---
+title: P21-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Allons faire un tour
+Les statistiques EPFL 2026 viennent d'être publiées.
+Voyons qui est notre public.
+</div>
+
+<div class="right-column">
+  <img src="/assets/images/04-01-Stats_EPFL.png" alt="USEP Récolte Démo">
+</div>
+
+</div>
+
+---
+title: P21-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+# Comment savoir ce que j'ai téléchargé?
+Un petit programme très pratique nous permet de voir et modifier des fichiers `*.csv`.
+
+<div class="visual-full-width">
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Stats_EPFL-Total.png"
+    alt="Résultat Power Query — étape 1"
+  />
+
+  <img
+    v-click="[1, 2]"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Stats_EPFL-New.png"
+    alt="Résultat Power Query — étape 2"
+  />
+
+  <img
+    v-click="2"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Stats_EPFL-Effectif.png"
+    alt="Résultat Power Query — étape 3"
+  />
+
+</div>
+
+<div class="visual-captions">
+
+  <div v-click-hide="1">
+    La table <code>Effectif total.csv</code> n'est pas très utile.
+  </div>
+
+  <div v-click="[1, 2]">
+    La table <code>Effectif new.csv</code> peut éventuellement être utile.
+  </div>
+
+  <div v-click="2">
+    La table <code>Table effectif.vsv</code> est bien et nous allons l'utiliser.
+  </div>
+
+</div>
+
+[Smooth CSV ↗](https://smoothcsv.com/fr){target="_blank" .demo-link}
