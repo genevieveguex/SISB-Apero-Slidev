@@ -484,99 +484,231 @@ hideInToc: true
 
 <div class="apero-page-number">{{ $page }}</div>
 
-<div class="two-columns">
-
-<div class="left-column">
-
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Allons faire un tour
-Les statistiques EPFL 2026 viennent d'être publiées.
+# À la recherche du lien manquant
 
-Allons voir qui est notre public.
-
-</div>
-
-<div class="right-column">
-  <img src="/assets/images/04-01-Stats_EPFL.png" alt="USEP Récolte Démo">
-</div>
-
-</div>
-
-[Statistiques insitutionnelles de l'EPFL ↗](https://www.epfl.ch/about/data/fr/donnees-institutionnelles/statistiques-institutionnelles/){target="_blank" .demo-link}
-
----
-title: P21-ORGANISER ET ENRICHIR
-hideInToc: true
----
-
-<div class="apero-page-number">{{ $page }}</div>
-
-<div class="two-columns">
-
-<div class="left-column">
-
-<div class="eyebrow">04 · Organiser et enrichir</div>
-
-# Allons faire un tour
-Les statistiques EPFL 2026 viennent d'être publiées.
-Voyons qui est notre public.
-</div>
-
-<div class="right-column">
-  <img src="/assets/images/04-01-Stats_EPFL.png" alt="USEP Récolte Démo">
-</div>
-
-</div>
-
----
-title: P21-ORGANISER ET ENRICHIR
-hideInToc: true
----
-
-<div class="apero-page-number">{{ $page }}</div>
-
-# Comment savoir ce que j'ai téléchargé?
-Un petit programme très pratique nous permet de voir et modifier des fichiers `*.csv`.
-
-<div class="visual-full-width">
+<div class="model-visual">
   <img
     v-click-hide="1"
     class="visual-fade-image"
-    src="/assets/images/04-02-Stats_EPFL-Total.png"
+    src="/assets/images/04-01-Modele.png"
     alt="Résultat Power Query — étape 1"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
-    src="/assets/images/04-02-Stats_EPFL-New.png"
+    src="/assets/images/04-01-Modele-02.png"
     alt="Résultat Power Query — étape 2"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
-    src="/assets/images/04-02-Stats_EPFL-Effectif.png"
+    src="/assets/images/04-01-Modele-02-02.png"
     alt="Résultat Power Query — étape 3"
   />
 
 </div>
 
-<div class="visual-captions">
+<div class="model-captions">
+  <div v-click-hide="1">Un point commun ne fait pas encore une relation. Nous devons enrichir nos tables de récolte.</div>
+  <div v-click="[1, 2]">Première étape : harmoniser les informations communes pour qu'elles puissent être mises en relation.</div>
+  <div v-click="2">Mais nous avons de multiples (*) dates et filières à gauche comme à droite.</div>
+</div>
 
-  <div v-click-hide="1">
-    La table <code>Effectif total.csv</code> n'est pas très utile.
-  </div>
 
-  <div v-click="[1, 2]">
-    La table <code>Effectif new.csv</code> peut éventuellement être utile.
-  </div>
 
-  <div v-click="2">
-    La table <code>Table effectif.vsv</code> est bien et nous allons l'utiliser.
-  </div>
+---
+title: P21-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns model-wide">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Il nous manque des pièces
+
+Ajoutons un **calendrier** et un **référentiel des filières EPFL**.  
+Ils nous permettent de piloter :
+
+<p v-click="1">
+→ les dates
+</p>
+
+<p v-click="2">
+→ et les filières  
+
+de nos tables de récolte
+</p>
 
 </div>
 
-[Smooth CSV ↗](https://smoothcsv.com/fr){target="_blank" .demo-link}
+<div class="right-column visual-fade">
+
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/04-01-Modele-03-01.png"
+    alt="Tables non reliées"
+  />
+
+  <img
+    v-click="[1, 2]"
+    class="visual-fade-image"
+    src="/assets/images/04-01-Modele-03-02.png"
+    alt="Lien date"
+  />
+
+  <img
+    v-click="2"
+    class="visual-fade-image"
+    src="/assets/images/04-01-Modele-03-03.png"
+    alt="Modèle avec les relations"
+  />
+
+</div>
+
+</div>
+
+[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+
+
+---
+title: P22-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns model-wide">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Notre tout premier <br> modèle de données
+Dans Excel + Power Query + Power Pivot
+
+<p>
+  <span v-click="1">
+    La table de référence calendrier et la table de référence des filières ont été créées directement dans Power Query.
+  </span>
+</p>
+
+<p>
+  <span v-click="2">
+    → les valeurs des effectifs EPFL ont été chargées à partir des *.csv téléchargés
+  </span>
+</p>
+
+<p>
+  <span v-click="3">
+    → et la table de récolte FORM a été enrichie
+  </span>
+</p>
+
+
+
+</div>
+
+<div class="right-column visual-fade">
+
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Modele-PP.png"
+    alt="Modèle sémantique"
+  />
+
+  <img
+    v-click="[1, 2]"
+    class="visual-fade-image"
+    src="/assets/images/04-02-TableRef-Calendrier.png"
+    alt="Table Calendrier"
+  />
+
+  <img
+    v-click="2"
+    class="visual-fade-image"
+    src="/assets/images/04-02-TableRef-Filieres.png"
+    alt="Table filières"
+  />
+
+  <img
+    v-click="3"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Recolte-Effectif.png"
+    alt="Table filières"
+  />
+
+  <img
+    v-click="4"
+    class="visual-fade-image"
+    src="/assets/images/04-02-Recolte-FORM.png"
+    alt="Table filières"
+  />
+
+
+</div>
+</div>
+
+[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+
+
+---
+title: P23-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+<div class="two-columns model-wide result-wide">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Quels sont les avantages du modèle de données?
+
+<p>
+  <span v-click="1">
+    Ce type de graphique serait très difficile à produire sans deux colonnes de référence communes.
+  </span>
+</p>
+
+<p>
+  <span v-click="2">
+  Cela nous évite de faire une table avec des colonnes supplémentaires contenant des formules lourdes.
+  </span>
+</p>
+
+</div>
+<div class="right-column visual-fade">
+
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/04-04-Resultat-01.png"
+    alt="Modèle sémantique"
+  />
+
+  <img
+    v-click="1"
+    class="visual-fade-image"
+    src="/assets/images/04-04-Resultat-02.png"
+    alt="Table Calendrier"
+  />
+</div>
+
+</div>
+
+---
+title: P24-ORGANISER ET ENRICHIR
+hideInToc: true
+---
