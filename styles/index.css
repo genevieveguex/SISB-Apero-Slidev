@@ -671,7 +671,7 @@ Textes successifs sous les images
 
 .two-columns.model-wide {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 45% 55%;
   gap: 0;
   align-items: start;
   width: 100%;
@@ -703,4 +703,3 @@ Textes successifs sous les images
   object-fit: contain;
   object-position: center;
 }
-

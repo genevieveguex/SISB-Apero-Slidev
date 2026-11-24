@@ -301,10 +301,23 @@ hideInToc: true
 </div>
 
 
+---
+title: P14-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">03 · Extraire - transformer - charger</div>
+
+<div class="full-visual">
+  <img src="/assets/images/03-Slide-flux-02.png" alt="USEP Récolte Démo">
+</div>
+
 
 
 ---
-title: P14-ETL
+title: P15-ETL
 hideInToc: true
 ---
 
@@ -339,7 +352,7 @@ Sans modifier les fichiers d'origine. Et sans devoir écrire une ligne de code.
 
 
 ---
-title: P15-ETL
+title: P16-ETL
 hideInToc: true
 ---
 
@@ -357,7 +370,7 @@ Après avoir chargé vos différentes sources vous pouvez:
 - calculer de nouvelles valeurs avec des opérations mathématiques
 
 ---
-title: P16-ETL
+title: P17-ETL
 hideInToc: true
 ---
 
@@ -394,7 +407,7 @@ pour récupérer plusieurs fichiers en vue d'un assemblage
 
 
 ---
-title: P17-ETL
+title: P18-ETL
 hideInToc: true
 ---
 
@@ -438,7 +451,7 @@ Un fichier pratique pour la saisie et utilisable pour l'analyse
 
 
 ---
-title: P18-ETL
+title: P19-ETL
 hideInToc: true
 ---
 
@@ -478,7 +491,35 @@ C'est le modèle de données - aka modèle sémantique.
 </div>
 
 ---
-title: P20-ORGANISER ET ENRICHIR
+title: P21-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+<div class="full-visual">
+  <img src="/assets/images/04-Slide-flux-03.png" alt="USEP Récolte Démo">
+</div>
+
+
+---
+title: P22-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Phase de préparation
+
+
+
+
+
+---
+title: P23-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
 
@@ -662,51 +703,72 @@ Dans Excel + Power Query + Power Pivot
 [Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
 
 
+
+
 ---
 title: P23-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
 
 <div class="apero-page-number">{{ $page }}</div>
+
 <div class="two-columns model-wide result-wide">
 
 <div class="left-column">
 
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Quels sont les avantages du modèle de données?
+# Quels sont les avantages du modèle de données ?
 
 <p>
   <span v-click="1">
-    Ce type de graphique serait très difficile à produire sans deux colonnes de référence communes.
+    Les formules sont incluses dans le modèle - et créées une seule fois, à la volée. 
+   
   </span>
 </p>
 
 <p>
   <span v-click="2">
-  Cela nous évite de faire une table avec des colonnes supplémentaires contenant des formules lourdes.
+    Ce type de visuel est très difficile à créer .
+  </span>
+</p>
+
+<p>
+  <span v-click="3">
+    Cela nous évite de créer une table Excel avec des colonnes supplémentaires contenant des formules lourdes.
   </span>
 </p>
 
 </div>
+
 <div class="right-column visual-fade">
 
   <img
-    v-click-hide="1"
+    v-click="[1, 2]"
     class="visual-fade-image"
-    src="/assets/images/04-04-Resultat-01.png"
+    src="/assets/images/04-04-Resultat-00.png"
     alt="Modèle sémantique"
   />
 
   <img
-    v-click="1"
+    v-click="[2, 3]"
+    class="visual-fade-image"
+    src="/assets/images/04-04-Resultat-01.png"
+    alt="Premier résultat"
+  />
+
+  <img
+    v-click="3"
     class="visual-fade-image"
     src="/assets/images/04-04-Resultat-02.png"
-    alt="Table Calendrier"
+    alt="Deuxième résultat"
   />
-</div>
 
 </div>
+
+
+</div>
+
 
 ---
 title: P24-ORGANISER ET ENRICHIR
