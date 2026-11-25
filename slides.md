@@ -15,7 +15,7 @@ hideInToc: true
 # Visualiser les données pour répondre aux bonnes <span class="underline">questions</span>
 
 <div class="subtitle">
-De la question à la visualisation : démonstration d’un workflow<br>
+De la question à la visualisation : démonstration d’un processus<br>
 <strong>Excel → Power Query → Power Pivot | Power BI</strong><br>
 en explorant quelques fonctionnalités méconnues des outils Microsoft.
 </div>
@@ -72,10 +72,10 @@ hideInToc: true
   <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel Demo-01 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5HvAo5dGrQ62nm2qBVIHcAVtSpBlB-xpWGvWoCqfJZiI?e=vk0662){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-01 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5HvAo5dGrQ62nm2qBVIHcAVtSpBlB-xpWGvWoCqfJZiI?e=vk0662){target="_blank" .demo-link}
 
 Deux indicateurs de la Bibliothèque : entrées et prêts physiques.
-Que pouvons-nous en déduire?
+Que pouvons-nous en déduire ?
 
 
 ---
@@ -215,13 +215,13 @@ hideInToc: true
 
 <div class="eyebrow">02 · Repenser la structure</div>
 
-# Votre avis : quelles sont le questions que nous pourrions poser à ce jeux de données?
+# Votre avis : quelles questions pourrions-nous poser à ce jeu de données ?
 
 <div class="full-visual">
   <img src="/assets/images/02-01-Excel-depart.png">
 </div>
 
-[Ouvrir le fichier Excel Demo-02 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQD4DGUEi9wMT7F7UE6337lfAYyKty0dOSYo1gKj1xE1nYc?e=blsZ7N){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-02 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQD4DGUEi9wMT7F7UE6337lfAYyKty0dOSYo1gKj1xE1nYc?e=blsZ7N){target="_blank" .demo-link}
 
 
 ---
@@ -233,14 +233,14 @@ hideInToc: true
 
 <div class="eyebrow">02 · Repenser la structure</div>
 
-# Pourquoi ne pouvons-nous pas aller plus loin? <br>
+# Pourquoi ne pouvons-nous pas aller plus loin ? <br>
 
-**Nous devons séparer le format visuel du format d'analyse et construire notre fichier différemment**
-- nos valeurs doivent toutes se trouver dans une seule table
-- chaque colone doit contenir une catégorie unique de valeurs
+**Nous devons séparer le format visuel du format d'analyse et construire notre fichier différemment.**
+- Nos valeurs doivent toutes se trouver dans une seule table.
+- Chaque colonne doit contenir une seule catégorie de valeurs.
 
 
-[Ouvrir le fichier Excel Demo-03 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQDTNlCQQseQTbtmRilDdHvXATcgg0JkWO0n7B7ukFSfTFw?e=asMefe){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-03 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQDTNlCQQseQTbtmRilDdHvXATcgg0JkWO0n7B7ukFSfTFw?e=asMefe){target="_blank" .demo-link}
 
 
 ---
@@ -275,9 +275,9 @@ level: 1
 
 <div class="subtitle">
 Les données arrivent rarement dans le format qui nous arrange. <br>
-Les sources ne sont pas statiques, de nouveaux éléments sont ajoutés en permanence.
+Les sources ne sont pas statiques : de nouveaux éléments sont ajoutés en permanence.
 
-Changer les formats des tables à chaque mise-à-jour n'est pas imaginable.
+Changer le format des tables à chaque mise à jour n'est pas envisageable.
 </div>
 
 </div>
@@ -339,7 +339,7 @@ Power Query permet d'importer, de combiner et de transformer des données proven
 
 Sans modifier les fichiers d'origine. Et sans devoir écrire une ligne de code.
 
-[la liste complète ↗](https://learn.microsoft.com/en-us/power-query/connectors/){target="_blank" .demo-link}
+[La liste complète ↗](https://learn.microsoft.com/en-us/power-query/connectors/){target="_blank" .demo-link}
 
 
 ---
@@ -352,13 +352,13 @@ hideInToc: true
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
 # Opérations de transformation courantes
-Après avoir chargé vos différentes sources vous pouvez:
+Après avoir chargé vos différentes sources, vous pouvez :
 
-- réparer des structures (opérations sur lignes et colonnes)
-- utiliser des délimiteurs pour extraire du texte
-- créer des colonnes conditionnelles
-- retravailler des formats de date
-- calculer de nouvelles valeurs avec des opérations mathématiques
+- Réparer des structures (opérations sur les lignes et les colonnes).
+- Utiliser des délimiteurs pour extraire du texte.
+- Créer des colonnes conditionnelles.
+- Retravailler les formats de date.
+- Calculer de nouvelles valeurs avec des opérations mathématiques.
 
 ---
 title: P17-ETL
@@ -374,16 +374,16 @@ hideInToc: true
 
 # Démarrer la transformation
 
-Power Query se lance depuis l'onglet `Données` d'excel. Vous pouvez l'utiliser :
+Power Query se lance depuis l'onglet `Données` d'Excel. Vous pouvez l'utiliser :
 
-- dans le même fichier que vos tables existantes,
+- Dans le même fichier que vos tables existantes ;
   dans ce cas vous choisirez
-`A partir d'un tableau ou d'une plage`
+`À partir d'un tableau ou d'une plage`
 
-- dans un fichier vide que vous liez à vos sources:
-`A partir d'un fichier`  ou
-`A partir d'un dossier`
-pour récupérer plusieurs fichiers en vue d'un assemblage
+- Dans un fichier vide que vous reliez à vos sources :
+`À partir d'un fichier` ou
+`À partir d'un dossier`
+pour récupérer plusieurs fichiers en vue de les assembler.
 
 </div>
 
@@ -407,7 +407,7 @@ hideInToc: true
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
 # Le résultat
-Un fichier pratique pour la saisie et utilisable pour l'analyse
+Un fichier pratique pour la saisie et exploitable pour l'analyse.
 <div class="visual-full-width">
   <img
     v-click-hide="1"
@@ -431,7 +431,7 @@ Un fichier pratique pour la saisie et utilisable pour l'analyse
 
 <div class="visual-captions">
   <div v-click-hide="1">La présentation des données est séparée des données sources</div>
-  <div v-click="[1, 2]">Les tables de récolte servent deux objectifs: saisir les valeurs et alimenter Power Query</div>
+  <div v-click="[1, 2]">Les tables de récolte servent deux objectifs : saisir les valeurs et alimenter Power Query</div>
   <div v-click="2">La table de travail Power Query qui alimente les rapports vit dans son propre onglet</div>
 </div>
 
@@ -447,7 +447,7 @@ hideInToc: true
 
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
-# Et maintenant?
+# Et maintenant ?
 Nos données sont désormais structurées, exploitables et actualisables.
 
 Mais elles ne racontent chacune qu'une partie de l'histoire.
@@ -473,7 +473,7 @@ level: 1
 Mettre des tables en mémoire.<br>
 Les relier entre elles.
 
-C'est le modèle de données - aka modèle sémantique.
+C'est le modèle de données, aussi appelé modèle sémantique.
 
 </div>
 </div>
@@ -506,7 +506,7 @@ hideInToc: true
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
 # Préparation
-Nous commençons par lister les éléments que nous voulons visualiser
+Nous commençons par lister les éléments que nous voulons visualiser.
 
 <p>
   <span v-click="1">
@@ -516,7 +516,7 @@ Nous commençons par lister les éléments que nous voulons visualiser
 
 <p>
   <span v-click="2">
-    → cela nous aide à lister les éléments dont nous avons besoin
+    → Cela nous aide à lister les éléments dont nous avons besoin
   </span>
 </p>
 
@@ -528,7 +528,7 @@ Nous commençons par lister les éléments que nous voulons visualiser
 
 <p>
   <span v-click="4">
-    → et pour pouvoir dessiner notre tableau de bord
+    → et pour dessiner notre tableau de bord.
   </span>
 </p>
 
@@ -588,7 +588,7 @@ hideInToc: true
 
 # À la recherche du lien manquant
 
-L'EPFL vient juste de publier les chiffres des effectifs d'étudiants 2026.
+L'EPFL vient de publier les chiffres des effectifs étudiants pour 2026.
 Excellente nouvelle pour nous.
 
 </div>
@@ -616,8 +616,8 @@ hideInToc: true
 
 # À la recherche du lien manquant
 
-Ceci est le format `.csv.`, un des formats les plus courants.
-Nous utilisons un petit programme pour les nettoyer - ou nous utilisons Power Query pour le faire.
+Voici le format `.csv`, l'un des formats de fichiers les plus courants.
+Nous pouvons utiliser un petit programme pour nettoyer ces fichiers, ou simplement Power Query.
 
 </div>
 
@@ -626,7 +626,7 @@ Nous utilisons un petit programme pour les nettoyer - ou nous utilisons Power Qu
 </div>
 </div>
 
-[Smooth CSV, le meilleur éditeur csv ↗](https://smoothcsv.com/fr){target="_blank" .demo-link}
+[Smooth CSV, le meilleur éditeur CSV ↗](https://smoothcsv.com/fr){target="_blank" .demo-link}
 
 
 ---
@@ -664,7 +664,7 @@ hideInToc: true
 <div class="model-captions">
   <div v-click-hide="1">Un point commun ne fait pas encore une relation. Nous devons enrichir nos tables de récolte.</div>
   <div v-click="[1, 2]">Première étape : harmoniser les informations communes pour qu'elles puissent être mises en relation.</div>
-  <div v-click="2">Mais nous avons de multiples (*) dates et filières à gauche comme à droite.</div>
+  <div v-click="2">Mais nous avons plusieurs dates et filières de chaque côté.</div>
 </div>
 
 [Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=loPOKh){target="_blank" .demo-link}
@@ -750,13 +750,13 @@ Dans Excel + Power Query + Power Pivot
 
 <p>
   <span v-click="2">
-    → les valeurs des effectifs EPFL ont été chargées à partir des *.csv téléchargés
+    → Les valeurs des effectifs EPFL ont été chargées à partir des fichiers CSV téléchargés.
   </span>
 </p>
 
 <p>
   <span v-click="3">
-    → et la table de récolte FORM a été enrichie
+    → Et la table de récolte FORM a été enrichie.
   </span>
 </p>
 
@@ -811,8 +811,8 @@ hideInToc: true
 
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# En 15 minutes nous avons ...
-... créé, assemblé et enrichi 4 tables de sources différentes, qui sont maintenant prêtes pour produire un rapport.
+# En 15 minutes, nous avons…
+… créé, assemblé et enrichi quatre tables issues de sources différentes, désormais prêtes pour produire un rapport.
 
 <div class="visual-full-width">
   <img
@@ -833,7 +833,7 @@ hideInToc: true
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
 # Et voilà le travail...
-Le tout est actualisé au fur et à mesure que les valeurs sont entrées dans les fichiers de récolte et ne requiert plus édition.
+L'ensemble s'actualise au fur et à mesure de la saisie des valeurs dans les fichiers de récolte et ne nécessite plus d'édition manuelle du rapport.
 
 <div class="visual-full-width">
   <img
@@ -949,7 +949,7 @@ hideInToc: true
 
 <div class="eyebrow">05 · Voir et partager</div>
 
-# et un graphique n'est plus seulement une image
+# Et un graphique n'est plus seulement une image
 
 En réunissant plusieurs indicateurs, on fait apparaître des relations et des perspectives invisibles dans des tableaux séparés.
 
