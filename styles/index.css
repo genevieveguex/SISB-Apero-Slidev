@@ -40,7 +40,6 @@
   line-height: 1.4;
 }
 
-
 /* =========================================================
    EPFL HEADER
    ========================================================= */
@@ -117,7 +116,6 @@ p {
   color: var(--text);
 }
 
-
 /* =========================================================
    EYEBROW
    ========================================================= */
@@ -156,7 +154,6 @@ code {
   font-family: Consolas, "Courier New", monospace;
 }
 
-
 /* =========================================================
    UNDERLINE
    ========================================================= */
@@ -168,7 +165,6 @@ code {
   text-underline-offset: 7px;
   text-decoration-skip-ink: all;
 }
-
 
 /* =========================================================
    TITLE SLIDE
@@ -212,7 +208,6 @@ code {
   color: var(--text);
 }
 
-
 /* =========================================================
    STANDARD SLIDES
    ========================================================= */
@@ -220,7 +215,6 @@ code {
 .slidev-layout > .eyebrow {
   margin-bottom: 10px;
 }
-
 
 /* =========================================================
    FULL VISUAL
@@ -305,7 +299,6 @@ code {
   margin: 0 auto;
 }
 
-
 /* =========================================================
    DEMO LINK
    ========================================================= */
@@ -350,7 +343,6 @@ code {
   -webkit-focus-ring-color: transparent;
 }
 
-
 /* =========================================================
    TWO-COLUMN SLIDE
    ========================================================= */
@@ -384,7 +376,6 @@ code {
   transition: opacity 0.8s ease;
 }
 
-
 /* =========================================================
    SLIDEV CLICK STATES
    ========================================================= */
@@ -396,7 +387,6 @@ code {
 .left-column p:not(.slidev-vclick-hidden) {
   opacity: 1;
 }
-
 
 /* =========================================================
 Textes successifs sous les images
@@ -411,7 +401,6 @@ Textes successifs sous les images
   grid-area: 1 / 1;
   transition: opacity 1s ease;
 }
-
 
 /* =========================================================
    RIGHT COLUMN
@@ -433,7 +422,6 @@ Textes successifs sous les images
 
   object-fit: contain;
 }
-
 
 /* =========================================================
    VISUAL FADE
@@ -541,6 +529,17 @@ Textes successifs sous les images
    Rendered in each slide, independent of global layers
    ========================================================= */
 
+/* Caption placed immediately before each slide number. */
+.slidev-layout .apero-page-number::before {
+  content: "HEURE DE L'APÉRO | GGU | AUTOMNE 2026";
+  position: absolute;
+  top: 0;
+  right: calc(100% + 6px);
+  white-space: nowrap;
+  font: inherit;
+  color: inherit;
+}
+
 .slidev-layout .apero-page-number {
   position: absolute;
   top: 26px;
@@ -549,14 +548,12 @@ Textes successifs sous les images
   min-width: 32px;
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 8px;
   line-height: 1;
   font-weight: 400;
   color: var(--muted);
   pointer-events: none;
 }
-
-
 
 /* =========================================================
    Workflow
@@ -615,9 +612,6 @@ Textes successifs sous les images
   color: var(--muted);
 }
 
-
-
-
 /* ==========================================
    MODÈLE DE DONNÉES — SLIDE 20
    ========================================== */
@@ -643,7 +637,6 @@ Textes successifs sous les images
   object-position: center center;
 }
 
-
 /* ==========================================
    MODÈLE DE DONNÉES — SLIDE 20 - légendes
    ========================================== */
@@ -662,8 +655,6 @@ Textes successifs sous les images
   left: 0;
   width: 100%;
 }
-
-
 
 /* ==========================================
    MODÈLE — 35 % TEXTE / 65 % IMAGE
