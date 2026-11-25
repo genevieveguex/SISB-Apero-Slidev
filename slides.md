@@ -121,16 +121,16 @@ hideInToc: true
 
 # Ce que vous ne voyez pas
 
-*Existe-t-il une relation entre le nombre d'entrées  
+*Existe-t-il une relation entre le nombre d'entrées
 et le nombre de prêts ?*
 
-Les chiffres n’ont pas changé.  
+Les chiffres n’ont pas changé.
 La question que nous leur posons a changé.
 
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/01-03-Datasaurus.gif" alt="Visualisation Datasaurus">
+  <img src="/assets/images/01-03-Datasaurus.gif">
 </div>
 
 </div>
@@ -164,14 +164,12 @@ Explorer, comparer, changer d'échelle ou de perspective permet de découvrir ce
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/01-04-LineChart.png"
-    alt="Graphique en courbes"
   />
 
   <img
     v-click="1"
     class="visual-fade-image"
     src="/assets/images/01-05-Datasaurus.png"
-    alt="Datasaurus"
   />
 </div>
 
@@ -202,7 +200,7 @@ level: 1
 # La forme <span class="underline">compte</span>.
 
 <div class="subtitle">
-Un tableau bien présenté n'est pas nécessairement un tableau facile à analyser.<br> 
+Un tableau bien présenté n'est pas nécessairement un tableau facile à analyser.<br>
 Nos fichiers Excel sont souvent conçus pour être lus, beaucoup moins pour être exploités.
 </div>
 
@@ -220,11 +218,10 @@ hideInToc: true
 # Votre avis : quelles sont le questions que nous pourrions poser à ce jeux de données?
 
 <div class="full-visual">
-  <img src="/assets/images/02-01-Excel-depart.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/02-01-Excel-depart.png">
 </div>
 
 [Ouvrir le fichier Excel Demo-02 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQD4DGUEi9wMT7F7UE6337lfAYyKty0dOSYo1gKj1xE1nYc?e=blsZ7N){target="_blank" .demo-link}
-
 
 
 ---
@@ -243,12 +240,10 @@ hideInToc: true
 - chaque colone doit contenir une catégorie unique de valeurs
 
 
-
-
 [Ouvrir le fichier Excel Demo-03 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQDTNlCQQseQTbtmRilDdHvXATcgg0JkWO0n7B7ukFSfTFw?e=asMefe){target="_blank" .demo-link}
 
 
----  
+---
 title: P11-La forme compte
 hideInToc: true
 ---
@@ -260,7 +255,7 @@ hideInToc: true
 # Le format des données doit changer
 
 <div class="full-visual">
-  <img src="/assets/images/02-02-Excel-Arrivee.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/02-02-Excel-Arrivee.png">
 </div>
 
 [Ouvrir le fichier Excel de départ ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5GIJZ5GZyQYockbR11VZRAaaE5qfutF-6lp2tD4kpcI4?e=D44Dbz){target="_blank" .demo-link}
@@ -297,7 +292,7 @@ hideInToc: true
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
 <div class="full-visual">
-  <img src="/assets/images/03-Slide-flux.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/03-Slide-flux.png">
 </div>
 
 
@@ -311,9 +306,8 @@ hideInToc: true
 <div class="eyebrow">03 · Extraire - transformer - charger</div>
 
 <div class="full-visual">
-  <img src="/assets/images/03-Slide-flux-02.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/03-Slide-flux-02.png">
 </div>
-
 
 
 ---
@@ -334,21 +328,18 @@ Power Query permet d'importer, de combiner et de transformer des données proven
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/03-04-PQ-Interface.png"
-    alt="Interface Power Query"
   />
 
   <img
     v-click="1"
     class="visual-fade-image"
     src="/assets/images/03-05-PQ-Interface-Note.png"
-    alt="Interface Power Query annotée"
   />
 </div>
 
 Sans modifier les fichiers d'origine. Et sans devoir écrire une ligne de code.
 
 [la liste complète ↗](https://learn.microsoft.com/en-us/power-query/connectors/){target="_blank" .demo-link}
-
 
 
 ---
@@ -385,20 +376,20 @@ hideInToc: true
 
 Power Query se lance depuis l'onglet `Données` d'excel. Vous pouvez l'utiliser :
 
-- dans le même fichier que vos tables existantes,  
-  dans ce cas vous choisirez  
+- dans le même fichier que vos tables existantes,
+  dans ce cas vous choisirez
 `A partir d'un tableau ou d'une plage`
 
-- dans un fichier vide que vous liez à vos sources:  
-`A partir d'un fichier`  ou  
-`A partir d'un dossier`  
+- dans un fichier vide que vous liez à vos sources:
+`A partir d'un fichier`  ou
+`A partir d'un dossier`
 pour récupérer plusieurs fichiers en vue d'un assemblage
 
 </div>
 
 
 <div class="right-column">
-  <img src="/assets/images/03-02-LancerPQ.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/03-02-LancerPQ.png">
 </div>
 
 </div>
@@ -422,21 +413,18 @@ Un fichier pratique pour la saisie et utilisable pour l'analyse
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/03-06-Resultat.png"
-    alt="Résultat Power Query — étape 1"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
     src="/assets/images/03-06-Resultat-B.png"
-    alt="Résultat Power Query — étape 2"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
     src="/assets/images/03-06-Resultat-C.png"
-    alt="Résultat Power Query — étape 3"
   />
 
 </div>
@@ -483,7 +471,7 @@ level: 1
 <div class="subtitle">
 
 Mettre des tables en mémoire.<br>
-Les relier entre elles.  
+Les relier entre elles.
 
 C'est le modèle de données - aka modèle sémantique.
 
@@ -500,7 +488,7 @@ hideInToc: true
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
 <div class="full-visual">
-  <img src="/assets/images/04-Slide-flux-03.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/04-Slide-flux-03.png">
 </div>
 
 
@@ -545,7 +533,6 @@ Nous commençons par lister les éléments que nous voulons visualiser
 </p>
 
 
-
 </div>
 
 <div class="right-column visual-fade">
@@ -554,35 +541,30 @@ Nous commençons par lister les éléments que nous voulons visualiser
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/04-06-Prep-01.png"
-    alt="Modèle sémantique"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
     src="/assets/images/04-06-Prep-02.png"
-    alt="Table Calendrier"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
     src="/assets/images/04-06-Prep-03.png"
-    alt="Table filières"
   />
 
   <img
     v-click="3"
     class="visual-fade-image"
     src="/assets/images/04-06-Prep-04.png"
-    alt="Table filières"
   />
 
   <img
     v-click="4"
     class="visual-fade-image"
     src="/assets/images/04-06-Prep-05.png"
-    alt="Table filières"
   />
 
 
@@ -606,13 +588,13 @@ hideInToc: true
 
 # À la recherche du lien manquant
 
-L'EPFL vient juste de publier les chiffres des effectifs d'étudiants 2026.  
+L'EPFL vient juste de publier les chiffres des effectifs d'étudiants 2026.
 Excellente nouvelle pour nous.
 
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/04-Stats-EPFL.png" alt="Visualisation Datasaurus">
+  <img src="/assets/images/04-Stats-EPFL.png">
 </div>
 </div>
 
@@ -634,13 +616,13 @@ hideInToc: true
 
 # À la recherche du lien manquant
 
-Ceci est le format `.csv.`, un des formats les plus courants.  
+Ceci est le format `.csv.`, un des formats les plus courants.
 Nous utilisons un petit programme pour les nettoyer - ou nous utilisons Power Query pour le faire.
 
 </div>
 
 <div class="right-column">
-  <img src="/assets/images/Effectifs-Etudiants.jpg" alt="Visualisation Datasaurus">
+  <img src="/assets/images/Effectifs-Etudiants.jpg">
 </div>
 </div>
 
@@ -663,21 +645,18 @@ hideInToc: true
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele.png"
-    alt="Résultat Power Query — étape 1"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele-02.png"
-    alt="Résultat Power Query — étape 2"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele-02-02.png"
-    alt="Résultat Power Query — étape 3"
   />
 
 </div>
@@ -705,7 +684,7 @@ hideInToc: true
 
 # Il nous manque des pièces
 
-Ajoutons un **calendrier** et un **référentiel des filières EPFL**.  
+Ajoutons un **calendrier** et un **référentiel des filières EPFL**.
 Ils nous permettent de piloter :
 
 <p v-click="1">
@@ -713,7 +692,7 @@ Ils nous permettent de piloter :
 </p>
 
 <p v-click="2">
-→ et les filières  
+→ et les filières
 
 de nos tables de récolte
 </p>
@@ -726,21 +705,18 @@ de nos tables de récolte
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele-03-01.png"
-    alt="Tables non reliées"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele-03-02.png"
-    alt="Lien date"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
     src="/assets/images/04-01-Modele-03-03.png"
-    alt="Modèle avec les relations"
   />
 
 </div>
@@ -785,7 +761,6 @@ Dans Excel + Power Query + Power Pivot
 </p>
 
 
-
 </div>
 
 <div class="right-column visual-fade">
@@ -794,35 +769,30 @@ Dans Excel + Power Query + Power Pivot
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/04-02-Modele-PP.png"
-    alt="Modèle sémantique"
   />
 
   <img
     v-click="[1, 2]"
     class="visual-fade-image"
     src="/assets/images/04-02-TableRef-Calendrier.png"
-    alt="Table Calendrier"
   />
 
   <img
     v-click="2"
     class="visual-fade-image"
     src="/assets/images/04-02-TableRef-Filieres.png"
-    alt="Table filières"
   />
 
   <img
     v-click="3"
     class="visual-fade-image"
     src="/assets/images/04-02-Recolte-Effectif.png"
-    alt="Table filières"
   />
 
   <img
     v-click="4"
     class="visual-fade-image"
     src="/assets/images/04-02-Recolte-FORM.png"
-    alt="Table filières"
   />
 
 
@@ -830,8 +800,6 @@ Dans Excel + Power Query + Power Pivot
 </div>
 
 [Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
-
-
 
 
 ---
@@ -849,7 +817,6 @@ hideInToc: true
 <div class="visual-full-width">
   <img
     src="/assets/images/04-07-Tada.png"
-    alt="Interface Power Query"
   />
 
 </div>
@@ -871,7 +838,6 @@ Le tout est actualisé au fur et à mesure que les valeurs sont entrées dans le
 <div class="visual-full-width">
   <img
     src="/assets/images/04-08-Resultat.png"
-    alt="Interface Power Query"
   />
 
 </div>
@@ -918,7 +884,7 @@ hideInToc: true
 <div class="eyebrow">05 · Voir et partager</div>
 
 <div class="full-visual">
-  <img src="/assets/images/05-Slide flux-PBI.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/05-Slide flux-PBI.png">
 </div>
 
 ---
@@ -965,7 +931,7 @@ Le travail de récolte reste collectif, mais sa valorisation ne doit pas être r
 
 
 <div class="right-column">
-  <img src="/assets/images/05-01-PBI-Service.png" alt="USEP Récolte Démo">
+  <img src="/assets/images/05-01-PBI-Service.png">
 </div>
 
 </div>
@@ -996,16 +962,13 @@ Les visualisations interactives permettent de croiser les données, d'affiner le
     v-click-hide="1"
     class="visual-fade-image"
     src="/assets/images/05-02-Rapport-Air.png"
-    alt="Tables non reliées"
   />
 
   <img
     v-click="1"
     class="visual-fade-image"
     src="/assets/images/05-02-Rapport-Air2.png"
-    alt="Lien date"
   />
-
 
 
 </div>
@@ -1028,8 +991,6 @@ Derrière chaque indicateur, il y a des activités, des décisions et le travail
 Les données existaient. Les indicateurs aussi. Mais ils étaient dispersés dans des fichiers, des tableaux et des rapports.
 
 En les structurant, en les reliant et en les visualisant, nous avons simplement rendu visible ce qui était déjà là.
-
-
 
 
 ---
@@ -1059,7 +1020,6 @@ Nous leur donnons du sens.
 
   <img
     src="/assets/images/DinoSequentialSmaller.gif"
-    alt="Datasaurus"
     style="height: 350px; width: auto; max-width: 100%; object-fit: contain;"
   />
 
