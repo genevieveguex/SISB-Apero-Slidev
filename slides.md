@@ -4,6 +4,7 @@ title: SISB — Heure de l'apéro
 transition: fade
 mdc: true
 hideInToc: true
+download: true
 ---
 
 <div class="apero-page-number">{{ $page }}</div>
