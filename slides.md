@@ -261,7 +261,7 @@ hideInToc: true
 [Ouvrir le fichier Excel de départ ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5GIJZ5GZyQYockbR11VZRAaaE5qfutF-6lp2tD4kpcI4?e=D44Dbz){target="_blank" .demo-link}
 
 ---
-title: 03 · Extraire - Transformer - Charger
+title: 03 · Le moteur
 level: 1
 ---
 
@@ -875,19 +875,6 @@ Et parfois, l'impression qu'il faut avoir fait Polytechnique pour produire un ra
 
 
 ---
-title: P31-ETL
-hideInToc: true
----
-
-<div class="apero-page-number">{{ $page }}</div>
-
-<div class="eyebrow">05 · Voir et partager</div>
-
-<div class="full-visual">
-  <img src="/assets/images/05-Slide flux-PBI.png">
-</div>
-
----
 title: 05 · Voir et partager
 hideInToc: false
 ---
@@ -908,6 +895,20 @@ Et si l'on pouvait faire ce travail une seule fois, puis consacrer notre énergi
 
 </div>
 
+</div>
+
+
+---
+title: P32-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+<div class="full-visual">
+  <img src="/assets/images/05-Slide flux-PBI.png">
 </div>
 
 ---
