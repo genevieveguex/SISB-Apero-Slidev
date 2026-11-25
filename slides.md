@@ -240,7 +240,7 @@ hideInToc: true
 
 **Nous devons séparer le format visuel du format d'analyse et construire notre fichier différemment**
 - nos valeurs doivent toutes se trouver dans une seule table
-- la table doit se mettre à jour toute seule lorsque les valeurs sont modifiées
+- chaque colone doit contenir une catégorie unique de valeurs
 
 
 
@@ -508,18 +508,147 @@ hideInToc: true
 title: P22-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
+
 <div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns model-wide">
+
+<div class="left-column">
 
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Phase de préparation
+# Préparation
+Nous commençons par lister les éléments que nous voulons visualiser
+
+<p>
+  <span v-click="1">
+    Nous écrivons la logique en langage naturel.
+  </span>
+</p>
+
+<p>
+  <span v-click="2">
+    → cela nous aide à lister les éléments dont nous avons besoin
+  </span>
+</p>
+
+<p>
+  <span v-click="3">
+    → pour préparer nos calculs
+  </span>
+</p>
+
+<p>
+  <span v-click="4">
+    → et pour pouvoir dessiner notre tableau de bord
+  </span>
+</p>
 
 
 
+</div>
 
+<div class="right-column visual-fade">
+
+  <img
+    v-click-hide="1"
+    class="visual-fade-image"
+    src="/assets/images/04-06-Prep-01.png"
+    alt="Modèle sémantique"
+  />
+
+  <img
+    v-click="[1, 2]"
+    class="visual-fade-image"
+    src="/assets/images/04-06-Prep-02.png"
+    alt="Table Calendrier"
+  />
+
+  <img
+    v-click="2"
+    class="visual-fade-image"
+    src="/assets/images/04-06-Prep-03.png"
+    alt="Table filières"
+  />
+
+  <img
+    v-click="3"
+    class="visual-fade-image"
+    src="/assets/images/04-06-Prep-04.png"
+    alt="Table filières"
+  />
+
+  <img
+    v-click="4"
+    class="visual-fade-image"
+    src="/assets/images/04-06-Prep-05.png"
+    alt="Table filières"
+  />
+
+
+</div>
+</div>
+
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=loPOKh){target="_blank" .demo-link}
 
 ---
 title: P23-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# À la recherche du lien manquant
+
+L'EPFL vient juste de publier les chiffres des effectifs d'étudiants 2026.  
+Excellente nouvelle pour nous.
+
+</div>
+
+<div class="right-column">
+  <img src="/assets/images/04-Stats-EPFL.png" alt="Visualisation Datasaurus">
+</div>
+</div>
+
+[Site EPFL ↗](https://www.epfl.ch/about/data/fr/donnees-institutionnelles/statistiques-institutionnelles/){target="_blank" .demo-link}
+
+
+---
+title: P24-ORGANISER ET ENRICHIR
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column">
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# À la recherche du lien manquant
+
+Ceci est le format `.csv.`, un des formats les plus courants.  
+Nous utilisons un petit programme pour les nettoyer - ou nous utilisons Power Query pour le faire.
+
+</div>
+
+<div class="right-column">
+  <img src="/assets/images/Effectifs-Etudiants.jpg" alt="Visualisation Datasaurus">
+</div>
+</div>
+
+[Smooth CSV, le meilleur éditeur csv ↗](https://smoothcsv.com/fr){target="_blank" .demo-link}
+
+
+---
+title: P25-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
 
@@ -559,10 +688,10 @@ hideInToc: true
   <div v-click="2">Mais nous avons de multiples (*) dates et filières à gauche comme à droite.</div>
 </div>
 
-
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=loPOKh){target="_blank" .demo-link}
 
 ---
-title: P21-ORGANISER ET ENRICHIR
+title: P26-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
 
@@ -622,7 +751,7 @@ de nos tables de récolte
 
 
 ---
-title: P22-ORGANISER ET ENRICHIR
+title: P27-ORGANISER ET ENRICHIR
 hideInToc: true
 ---
 
@@ -706,71 +835,234 @@ Dans Excel + Power Query + Power Pivot
 
 
 ---
-title: P23-ORGANISER ET ENRICHIR
+title: P28-ETL
 hideInToc: true
 ---
 
 <div class="apero-page-number">{{ $page }}</div>
 
-<div class="two-columns model-wide result-wide">
+<div class="eyebrow">04 · Organiser et enrichir</div>
 
-<div class="left-column">
+# En 15 minutes nous avons ...
+... créé, assemblé et enrichi 4 tables de sources différentes, qui sont maintenant prêtes pour produire un rapport.
+
+<div class="visual-full-width">
+  <img
+    src="/assets/images/04-07-Tada.png"
+    alt="Interface Power Query"
+  />
+
+</div>
+
+
+[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+---
+title: P29-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="eyebrow">04 · Organiser et enrichir</div>
 
-# Quels sont les avantages du modèle de données ?
+# Et voilà le travail...
+Le tout est actualisé au fur et à mesure que les valeurs sont entrées dans les fichiers de récolte et ne requiert plus édition.
 
-<p>
-  <span v-click="1">
-    Les formules sont incluses dans le modèle - et créées une seule fois, à la volée. 
-   
-  </span>
-</p>
+<div class="visual-full-width">
+  <img
+    src="/assets/images/04-08-Resultat.png"
+    alt="Interface Power Query"
+  />
 
-<p>
-  <span v-click="2">
-    Ce type de visuel est très difficile à créer .
-  </span>
-</p>
+</div>
 
-<p>
-  <span v-click="3">
-    Cela nous évite de créer une table Excel avec des colonnes supplémentaires contenant des formules lourdes.
-  </span>
-</p>
+[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
 
+
+---
+title: P30-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">04 · Organiser et enrichir</div>
+
+# Excel, il faut qu'on parle.
+
+On a fait beaucoup de chemin ensemble. Mais certaines choses restent compliquées.
+
+
+<div v-click="1">
+
+**Quelques limites deviennent difficiles à contourner :**
+
+- Des graphiques rigides et peu personnalisables
+- Une interactivité limitée
+- Des fichiers qui circulent, se multiplient et deviennent difficiles à maintenir
+- Des actualisations encore dépendantes des utilisateurs
+- Une traçabilité insuffisante des transformations et des manipulations
+
+Et parfois, l'impression qu'il faut avoir fait Polytechnique pour produire un rapport !
+
+</div>
+
+
+---
+title: P31-ETL
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+<div class="full-visual">
+  <img src="/assets/images/05-Slide flux-PBI.png" alt="USEP Récolte Démo">
+</div>
+
+---
+title: 05 · Voir et partager
+hideInToc: false
+---
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="title-slide">
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+# Du fichier à l'<span class="underline">écosystème</span>.
+
+<div class="subtitle">
+
+Pendant longtemps, produire un rapport demandait presque autant de travail que récolter les données. Et il fallait souvent tout recommencer à la mise à jour suivante.
+
+Et si l'on pouvait faire ce travail une seule fois, puis consacrer notre énergie à explorer les résultats, avec des visualisations à la hauteur des questions que l'on se pose ?
+
+
+</div>
+
+</div>
+
+---
+title: P33 Voir et partager
+hideInToc: true
+---
+
+
+<div class="apero-page-number">{{ $page }}</div>
+<div class="two-columns model-wide">
+
+<div class="left-column">
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+# Power BI, ce n'est pas <br>juste un graphique
+On ne partage plus seulement un fichier, on partage un système d'information.
+
+Le travail de récolte reste collectif, mais sa valorisation ne doit pas être recommencée chaque mois.
+</div>
+
+
+<div class="right-column">
+  <img src="/assets/images/05-01-PBI-Service.png" alt="USEP Récolte Démo">
+</div>
+
+</div>
+
+---
+title: P34 Voir et partager
+hideInToc: true
+---
+
+
+<div class="apero-page-number">{{ $page }}</div>
+<div class="two-columns model-wide">
+
+<div class="left-column">
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+# et un graphique n'est plus seulement une image
+
+En réunissant plusieurs indicateurs, on fait apparaître des relations et des perspectives invisibles dans des tableaux séparés.
+
+Les visualisations interactives permettent de croiser les données, d'affiner les analyses et, enfin, d'apporter des réponses aux questions que nous avons pris le temps de définir.
 </div>
 
 <div class="right-column visual-fade">
 
   <img
-    v-click="[1, 2]"
+    v-click-hide="1"
     class="visual-fade-image"
-    src="/assets/images/04-04-Resultat-00.png"
-    alt="Modèle sémantique"
+    src="/assets/images/05-02-Rapport-Air.png"
+    alt="Tables non reliées"
   />
 
   <img
-    v-click="[2, 3]"
+    v-click="1"
     class="visual-fade-image"
-    src="/assets/images/04-04-Resultat-01.png"
-    alt="Premier résultat"
+    src="/assets/images/05-02-Rapport-Air2.png"
+    alt="Lien date"
   />
 
-  <img
-    v-click="3"
-    class="visual-fade-image"
-    src="/assets/images/04-04-Resultat-02.png"
-    alt="Deuxième résultat"
-  />
-
-</div>
 
 
 </div>
-
+</div>
 
 ---
-title: P24-ORGANISER ET ENRICHIR
+title: P35 Voir et partager
 hideInToc: true
 ---
+
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+# Tout était déjà là.
+
+Derrière chaque indicateur, il y a des activités, des décisions et le travail quotidien de nos équipes.
+
+Les données existaient. Les indicateurs aussi. Mais ils étaient dispersés dans des fichiers, des tableaux et des rapports.
+
+En les structurant, en les reliant et en les visualisant, nous avons simplement rendu visible ce qui était déjà là.
+
+
+
+
+---
+title: P36-VOIR ET PARTAGER
+hideInToc: true
+---
+
+<div class="apero-page-number">{{ $page }}</div>
+
+<div class="two-columns">
+
+<div class="left-column" style="padding-top: 70px;">
+
+<div class="eyebrow">05 · Voir et partager</div>
+
+# Les données ne parlent pas d'elles-mêmes.
+
+Nous leur donnons du sens.
+
+<p v-click="1">
+  <strong>Mais c'est votre regard qui leur donne toute leur valeur.</strong>
+</p>
+
+</div>
+
+<div class="right-column" style="display: flex; align-items: center; justify-content: center;">
+
+  <img
+    src="/assets/images/DinoSequentialSmaller.gif"
+    alt="Datasaurus"
+    style="height: 350px; width: auto; max-width: 100%; object-fit: contain;"
+  />
+
+</div>
+
+</div>
