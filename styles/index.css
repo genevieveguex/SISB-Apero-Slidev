@@ -529,6 +529,17 @@ Textes successifs sous les images
    Rendered in each slide, independent of global layers
    ========================================================= */
 
+/* Caption placed immediately before each slide number. */
+.slidev-layout .apero-page-number::before {
+  content: "HEURE DE L'APÉRO | GGU | AUTOMNE 2026";
+  position: absolute;
+  top: 0;
+  right: calc(100% + 16px);
+  white-space: nowrap;
+  font: inherit;
+  color: inherit;
+}
+
 .slidev-layout .apero-page-number {
   position: absolute;
   top: 26px;
