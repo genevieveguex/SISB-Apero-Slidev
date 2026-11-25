@@ -814,11 +814,11 @@ hideInToc: true
 # En 15 minutes, nous avons…
 … créé, assemblé et enrichi quatre tables issues de sources différentes, désormais prêtes pour produire un rapport.
 
-<div class="visual-full-width">
+<div class="visual-full-width" style="height: 320px;">
   <img
     src="/assets/images/04-07-Tada.png"
+    style="width: 100%; height: 100%; object-fit: contain; object-position: center top;"
   />
-
 </div>
 
 
