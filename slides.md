@@ -73,7 +73,7 @@ hideInToc: true
   <img src="/assets/images/01-01-Extrait-Excel.png">
 </div>
 
-[Ouvrir le fichier Excel Démo-01 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5HvAo5dGrQ62nm2qBVIHcAVtSpBlB-xpWGvWoCqfJZiI?e=vk0662){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-01 ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQA48ENiSWRfS57rTMHss14sAXvBkLi0Dc0jq3371enACrg?e=gAW3tz){target="_blank" .demo-link}
 
 Deux indicateurs de la Bibliothèque : entrées et prêts physiques.
 Que pouvons-nous en déduire ?
@@ -222,7 +222,7 @@ hideInToc: true
   <img src="/assets/images/02-01-Excel-depart.png">
 </div>
 
-[Ouvrir le fichier Excel Démo-02 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQD4DGUEi9wMT7F7UE6337lfAYyKty0dOSYo1gKj1xE1nYc?e=blsZ7N){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-02 ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQDNq5NOpIXuRLBf-blSqAgpAbtKzys0ItiurAxvPx-YZYs?e=qdfDr6){target="_blank" .demo-link}
 
 
 ---
@@ -241,7 +241,7 @@ hideInToc: true
 - Chaque colonne doit contenir une seule catégorie de valeurs.
 
 
-[Ouvrir le fichier Excel Démo-03 ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQDTNlCQQseQTbtmRilDdHvXATcgg0JkWO0n7B7ukFSfTFw?e=asMefe){target="_blank" .demo-link}
+[Ouvrir le fichier Excel Démo-03 ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQDDoZzc1r0HS7GEGzAUaOv_AX5L6S-RibexUxj1S1HdUnQ?e=CfWcQY){target="_blank" .demo-link}
 
 
 ---
@@ -259,7 +259,7 @@ hideInToc: true
   <img src="/assets/images/02-02-Excel-Arrivee.png">
 </div>
 
-[Ouvrir le fichier Excel de départ ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQB5GIJZ5GZyQYockbR11VZRAaaE5qfutF-6lp2tD4kpcI4?e=D44Dbz){target="_blank" .demo-link}
+[Ouvrir le fichier Excel de départ ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAwNiZ8u9jcSIqNnw7LmIKvAYvwk91ZCL5TBdRdLGnznu8?e=VV6h1W){target="_blank" .demo-link}
 
 ---
 title: 03 · Le moteur
@@ -395,7 +395,7 @@ pour récupérer plusieurs fichiers en vue de les assembler.
 
 </div>
 
-[Ouvrir le fichier Excel avec les étapes ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQCrj9uwrUZPRZcM-5qcYV2LAbTJD2QyJxhq8u3n5x8PJSM?e=mFM3nP){target="_blank" .demo-link}
+[Ouvrir le fichier Excel avec les étapes ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAiHQexVx65SLPxEhQUNcHHAfZQ7H6KzHJELUlDt8e6bLQ?e=Pf0XA0){target="_blank" .demo-link}
 
 
 ---
@@ -436,7 +436,7 @@ Un fichier pratique pour la saisie et exploitable pour l'analyse.
   <div v-click="2">La table de travail Power Query qui alimente les rapports vit dans son propre onglet</div>
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAE7GuCiTTmRY7OkegelTfiAWDbnIud5J8Zhisur9eJ7yg?e=wvHzZQ){target="_blank" .demo-link}
 
 
 ---
@@ -572,7 +572,7 @@ Nous commençons par lister les éléments que nous voulons visualiser.
 </div>
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=loPOKh){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗]https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY}
 
 ---
 title: P23-ORGANISER ET ENRICHIR
@@ -668,7 +668,7 @@ hideInToc: true
   <div v-click="2">Mais nous avons plusieurs dates et filières de chaque côté.</div>
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=loPOKh){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY}
 
 ---
 title: P26-ORGANISER ET ENRICHIR
@@ -724,7 +724,7 @@ de nos tables de récolte
 
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY){target="_blank" .demo-link}
 
 
 ---
@@ -800,7 +800,7 @@ Dans Excel + Power Query + Power Pivot
 </div>
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY){target="_blank" .demo-link}
 
 
 ---
@@ -823,7 +823,7 @@ hideInToc: true
 </div>
 
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY){target="_blank" .demo-link}
 ---
 title: P29-ETL
 hideInToc: true
@@ -843,7 +843,7 @@ L'ensemble s'actualise au fur et à mesure de la saisie des valeurs dans les fic
 
 </div>
 
-[Ouvrir le fichier Excel terminé ↗](https://epflch-my.sharepoint.com/:x:/g/personal/genevieve_guex_epfl_ch/IQBK-dh-sWqvSZZ-dL0gr7bAAW_d72uWJrKV6gRC8Cg0SmM?e=px7R6z){target="_blank" .demo-link}
+[Ouvrir le fichier Excel terminé ↗](https://epflch.sharepoint.com/:x:/s/SISB-Stats-200_Formation/IQAPgKaVC7CFSbSvxYasWfGxAZnVtzRqQ5U2etCjNYuw0Vk?e=qMBWQY){target="_blank" .demo-link}
 
 
 ---
@@ -983,6 +983,30 @@ hideInToc: true
 
 
 <div class="apero-page-number">{{ $page }}</div>
+<div class="eyebrow">05 · Voir et partager</div>
+
+# De la récolte au partage
+
+La récolte reste au plus près des personnes qui connaissent les données.
+Power BI prend le relais : les informations sont réunies, les rapports actualisés et les résultats accessibles à tous depuis un même endroit.
+
+
+
+<div class="visual-full-width">
+  <img
+    src="/assets/images/05-03-Partage.png"
+  />
+
+
+</div>
+
+---
+title: P35 Voir et partager
+hideInToc: true
+---
+
+
+<div class="apero-page-number">{{ $page }}</div>
 
 <div class="eyebrow">05 · Voir et partager</div>
 
@@ -993,6 +1017,7 @@ Derrière chaque indicateur, il y a des activités, des décisions et le travail
 Les données existaient. Les indicateurs aussi. Mais ils étaient dispersés dans des fichiers, des tableaux et des rapports.
 
 En les structurant, en les reliant et en les visualisant, nous avons simplement rendu visible ce qui était déjà là.
+
 
 
 ---
@@ -1028,3 +1053,7 @@ Nous leur donnons du sens.
 </div>
 
 </div>
+
+
+
+
